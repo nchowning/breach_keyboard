@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name split_keyboard)(type Legacy)(uri /home/nathan/workspace/split_keyboard/split_keyboard.lib)(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri /home/nathan/workspace/split_keyboard/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
+)

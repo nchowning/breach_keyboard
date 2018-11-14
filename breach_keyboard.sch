@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:breach_keyboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5C2CE822
 P 2600 2550
 F 0 "SW1" H 2600 2935 50  0000 C CNN
 F 1 "SW_Push_LED" H 2600 2844 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 2850 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 2850 50  0001 C CNN
 F 3 "" H 2600 2850 50  0001 C CNN
 	1    2600 2550
 	1    0    0    -1  
@@ -41,8 +42,6 @@ Wire Wire Line
 	2800 2450 2900 2450
 Wire Wire Line
 	2250 2450 2250 2400
-Text GLabel 2800 2550 2    20   UnSpc ~ 0
-5V
 Text GLabel 2400 2550 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -51,7 +50,7 @@ U 1 1 5C2CE837
 P 2600 3100
 F 0 "SW7" H 2600 3485 50  0000 C CNN
 F 1 "SW_Push_LED" H 2600 3394 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 3400 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 3400 50  0001 C CNN
 F 3 "" H 2600 3400 50  0001 C CNN
 	1    2600 3100
 	1    0    0    -1  
@@ -73,8 +72,6 @@ Wire Wire Line
 	2800 3000 2900 3000
 Wire Wire Line
 	2250 3000 2250 2950
-Text GLabel 2800 3100 2    20   UnSpc ~ 0
-5V
 Text GLabel 2400 3100 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -83,7 +80,7 @@ U 1 1 5C2DBD72
 P 2600 3650
 F 0 "SW15" H 2600 4035 50  0000 C CNN
 F 1 "SW_Push_LED" H 2600 3944 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 3950 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 3950 50  0001 C CNN
 F 3 "" H 2600 3950 50  0001 C CNN
 	1    2600 3650
 	1    0    0    -1  
@@ -105,8 +102,6 @@ Wire Wire Line
 	2800 3550 2900 3550
 Wire Wire Line
 	2250 3550 2250 3500
-Text GLabel 2800 3650 2    20   UnSpc ~ 0
-5V
 Text GLabel 2400 3650 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -115,7 +110,7 @@ U 1 1 5C2DCADE
 P 2600 4200
 F 0 "SW22" H 2600 4585 50  0000 C CNN
 F 1 "SW_Push_LED" H 2600 4494 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 4500 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 4500 50  0001 C CNN
 F 3 "" H 2600 4500 50  0001 C CNN
 	1    2600 4200
 	1    0    0    -1  
@@ -137,8 +132,6 @@ Wire Wire Line
 	2800 4100 2900 4100
 Wire Wire Line
 	2250 4100 2250 4050
-Text GLabel 2800 4200 2    20   UnSpc ~ 0
-5V
 Text GLabel 2400 4200 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -147,7 +140,7 @@ U 1 1 5C2DCC40
 P 2600 4750
 F 0 "SW29" H 2600 5135 50  0000 C CNN
 F 1 "SW_Push_LED" H 2600 5044 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 5050 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 5050 50  0001 C CNN
 F 3 "" H 2600 5050 50  0001 C CNN
 	1    2600 4750
 	1    0    0    -1  
@@ -169,8 +162,6 @@ Wire Wire Line
 	2800 4650 2900 4650
 Wire Wire Line
 	2250 4650 2250 4600
-Text GLabel 2800 4750 2    20   UnSpc ~ 0
-5V
 Text GLabel 2400 4750 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -179,7 +170,7 @@ U 1 1 5C2DCDF9
 P 2600 5300
 F 0 "SW36" H 2600 5685 50  0000 C CNN
 F 1 "SW_Push_LED" H 2600 5594 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 5600 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2600 5600 50  0001 C CNN
 F 3 "" H 2600 5600 50  0001 C CNN
 	1    2600 5300
 	1    0    0    -1  
@@ -201,7 +192,7 @@ Wire Wire Line
 	2800 5200 2900 5200
 Wire Wire Line
 	2250 5200 2250 5150
-Text GLabel 2800 5300 2    20   UnSpc ~ 0
+Text GLabel 3000 5300 2    20   UnSpc ~ 0
 5V
 Text GLabel 2400 5300 0    20   UnSpc ~ 0
 GND
@@ -211,7 +202,7 @@ U 1 1 5C2DD502
 P 3650 2550
 F 0 "SW2" H 3650 2935 50  0000 C CNN
 F 1 "SW_Push_LED" H 3650 2844 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 2850 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 2850 50  0001 C CNN
 F 3 "" H 3650 2850 50  0001 C CNN
 	1    3650 2550
 	1    0    0    -1  
@@ -233,8 +224,6 @@ Wire Wire Line
 	3850 2450 3950 2450
 Wire Wire Line
 	3300 2450 3300 2400
-Text GLabel 3850 2550 2    20   UnSpc ~ 0
-5V
 Text GLabel 3450 2550 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -243,7 +232,7 @@ U 1 1 5C2DD515
 P 3650 3100
 F 0 "SW8" H 3650 3485 50  0000 C CNN
 F 1 "SW_Push_LED" H 3650 3394 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 3400 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 3400 50  0001 C CNN
 F 3 "" H 3650 3400 50  0001 C CNN
 	1    3650 3100
 	1    0    0    -1  
@@ -265,8 +254,6 @@ Wire Wire Line
 	3850 3000 3950 3000
 Wire Wire Line
 	3300 3000 3300 2950
-Text GLabel 3850 3100 2    20   UnSpc ~ 0
-5V
 Text GLabel 3450 3100 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -275,7 +262,7 @@ U 1 1 5C2DD529
 P 3650 3650
 F 0 "SW16" H 3650 4035 50  0000 C CNN
 F 1 "SW_Push_LED" H 3650 3944 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 3950 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 3950 50  0001 C CNN
 F 3 "" H 3650 3950 50  0001 C CNN
 	1    3650 3650
 	1    0    0    -1  
@@ -297,8 +284,6 @@ Wire Wire Line
 	3850 3550 3950 3550
 Wire Wire Line
 	3300 3550 3300 3500
-Text GLabel 3850 3650 2    20   UnSpc ~ 0
-5V
 Text GLabel 3450 3650 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -307,7 +292,7 @@ U 1 1 5C2DD53D
 P 3650 4200
 F 0 "SW23" H 3650 4585 50  0000 C CNN
 F 1 "SW_Push_LED" H 3650 4494 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 4500 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 4500 50  0001 C CNN
 F 3 "" H 3650 4500 50  0001 C CNN
 	1    3650 4200
 	1    0    0    -1  
@@ -329,8 +314,6 @@ Wire Wire Line
 	3850 4100 3950 4100
 Wire Wire Line
 	3300 4100 3300 4050
-Text GLabel 3850 4200 2    20   UnSpc ~ 0
-5V
 Text GLabel 3450 4200 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -339,7 +322,7 @@ U 1 1 5C2DD551
 P 3650 4750
 F 0 "SW30" H 3650 5135 50  0000 C CNN
 F 1 "SW_Push_LED" H 3650 5044 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 5050 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_2.25u_PCB" H 3650 5050 50  0001 C CNN
 F 3 "" H 3650 5050 50  0001 C CNN
 	1    3650 4750
 	1    0    0    -1  
@@ -361,8 +344,6 @@ Wire Wire Line
 	3850 4650 3950 4650
 Wire Wire Line
 	3300 4650 3300 4600
-Text GLabel 3850 4750 2    20   UnSpc ~ 0
-5V
 Text GLabel 3450 4750 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -371,7 +352,7 @@ U 1 1 5C2DD565
 P 3650 5300
 F 0 "SW37" H 3650 5685 50  0000 C CNN
 F 1 "SW_Push_LED" H 3650 5594 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 5600 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3650 5600 50  0001 C CNN
 F 3 "" H 3650 5600 50  0001 C CNN
 	1    3650 5300
 	1    0    0    -1  
@@ -393,8 +374,6 @@ Wire Wire Line
 	3850 5200 3950 5200
 Wire Wire Line
 	3300 5200 3300 5150
-Text GLabel 3850 5300 2    20   UnSpc ~ 0
-5V
 Text GLabel 3450 5300 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -403,7 +382,7 @@ U 1 1 5C2DDFFF
 P 4700 3100
 F 0 "SW9" H 4700 3485 50  0000 C CNN
 F 1 "SW_Push_LED" H 4700 3394 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4700 3400 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4700 3400 50  0001 C CNN
 F 3 "" H 4700 3400 50  0001 C CNN
 	1    4700 3100
 	1    0    0    -1  
@@ -425,8 +404,6 @@ Wire Wire Line
 	4900 3000 5000 3000
 Wire Wire Line
 	4350 3000 4350 2950
-Text GLabel 4900 3100 2    20   UnSpc ~ 0
-5V
 Text GLabel 4500 3100 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -435,7 +412,7 @@ U 1 1 5C2DE012
 P 4700 3650
 F 0 "SW17" H 4700 4035 50  0000 C CNN
 F 1 "SW_Push_LED" H 4700 3944 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4700 3950 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4700 3950 50  0001 C CNN
 F 3 "" H 4700 3950 50  0001 C CNN
 	1    4700 3650
 	1    0    0    -1  
@@ -457,8 +434,6 @@ Wire Wire Line
 	4900 3550 5000 3550
 Wire Wire Line
 	4350 3550 4350 3500
-Text GLabel 4900 3650 2    20   UnSpc ~ 0
-5V
 Text GLabel 4500 3650 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -467,7 +442,7 @@ U 1 1 5C2DE026
 P 4700 4200
 F 0 "SW24" H 4700 4585 50  0000 C CNN
 F 1 "SW_Push_LED" H 4700 4494 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4700 4500 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4700 4500 50  0001 C CNN
 F 3 "" H 4700 4500 50  0001 C CNN
 	1    4700 4200
 	1    0    0    -1  
@@ -489,8 +464,6 @@ Wire Wire Line
 	4900 4100 5000 4100
 Wire Wire Line
 	4350 4100 4350 4050
-Text GLabel 4900 4200 2    20   UnSpc ~ 0
-5V
 Text GLabel 4500 4200 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -499,7 +472,7 @@ U 1 1 5C2DE03A
 P 4700 4750
 F 0 "SW31" H 4700 5135 50  0000 C CNN
 F 1 "SW_Push_LED" H 4700 5044 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4700 5050 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4700 5050 50  0001 C CNN
 F 3 "" H 4700 5050 50  0001 C CNN
 	1    4700 4750
 	1    0    0    -1  
@@ -521,8 +494,6 @@ Wire Wire Line
 	4900 4650 5000 4650
 Wire Wire Line
 	4350 4650 4350 4600
-Text GLabel 4900 4750 2    20   UnSpc ~ 0
-5V
 Text GLabel 4500 4750 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -531,7 +502,7 @@ U 1 1 5C2DE04E
 P 4700 5300
 F 0 "SW38" H 4700 5685 50  0000 C CNN
 F 1 "SW_Push_LED" H 4700 5594 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4700 5600 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4700 5600 50  0001 C CNN
 F 3 "" H 4700 5600 50  0001 C CNN
 	1    4700 5300
 	1    0    0    -1  
@@ -553,8 +524,6 @@ Wire Wire Line
 	4900 5200 5000 5200
 Wire Wire Line
 	4350 5200 4350 5150
-Text GLabel 4900 5300 2    20   UnSpc ~ 0
-5V
 Text GLabel 4500 5300 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -563,7 +532,7 @@ U 1 1 5C2DF081
 P 5750 2550
 F 0 "SW3" H 5750 2935 50  0000 C CNN
 F 1 "SW_Push_LED" H 5750 2844 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5750 2850 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5750 2850 50  0001 C CNN
 F 3 "" H 5750 2850 50  0001 C CNN
 	1    5750 2550
 	1    0    0    -1  
@@ -585,8 +554,6 @@ Wire Wire Line
 	5950 2450 6050 2450
 Wire Wire Line
 	5400 2450 5400 2400
-Text GLabel 5950 2550 2    20   UnSpc ~ 0
-5V
 Text GLabel 5550 2550 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -595,7 +562,7 @@ U 1 1 5C2DF094
 P 5750 3100
 F 0 "SW10" H 5750 3485 50  0000 C CNN
 F 1 "SW_Push_LED" H 5750 3394 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5750 3400 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5750 3400 50  0001 C CNN
 F 3 "" H 5750 3400 50  0001 C CNN
 	1    5750 3100
 	1    0    0    -1  
@@ -617,8 +584,6 @@ Wire Wire Line
 	5950 3000 6050 3000
 Wire Wire Line
 	5400 3000 5400 2950
-Text GLabel 5950 3100 2    20   UnSpc ~ 0
-5V
 Text GLabel 5550 3100 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -627,7 +592,7 @@ U 1 1 5C2E0456
 P 6800 2550
 F 0 "SW4" H 6800 2935 50  0000 C CNN
 F 1 "SW_Push_LED" H 6800 2844 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 2850 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 2850 50  0001 C CNN
 F 3 "" H 6800 2850 50  0001 C CNN
 	1    6800 2550
 	1    0    0    -1  
@@ -649,8 +614,6 @@ Wire Wire Line
 	7000 2450 7100 2450
 Wire Wire Line
 	6450 2450 6450 2400
-Text GLabel 7000 2550 2    20   UnSpc ~ 0
-5V
 Text GLabel 6600 2550 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -659,7 +622,7 @@ U 1 1 5C2E0469
 P 6800 3100
 F 0 "SW11" H 6800 3485 50  0000 C CNN
 F 1 "SW_Push_LED" H 6800 3394 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 3400 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 3400 50  0001 C CNN
 F 3 "" H 6800 3400 50  0001 C CNN
 	1    6800 3100
 	1    0    0    -1  
@@ -681,8 +644,6 @@ Wire Wire Line
 	7000 3000 7100 3000
 Wire Wire Line
 	6450 3000 6450 2950
-Text GLabel 7000 3100 2    20   UnSpc ~ 0
-5V
 Text GLabel 6600 3100 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -691,7 +652,7 @@ U 1 1 5C2E047D
 P 6800 3650
 F 0 "SW18" H 6800 4035 50  0000 C CNN
 F 1 "SW_Push_LED" H 6800 3944 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 3950 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 3950 50  0001 C CNN
 F 3 "" H 6800 3950 50  0001 C CNN
 	1    6800 3650
 	1    0    0    -1  
@@ -713,8 +674,6 @@ Wire Wire Line
 	7000 3550 7100 3550
 Wire Wire Line
 	6450 3550 6450 3500
-Text GLabel 7000 3650 2    20   UnSpc ~ 0
-5V
 Text GLabel 6600 3650 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -723,7 +682,7 @@ U 1 1 5C2E0491
 P 6800 4200
 F 0 "SW25" H 6800 4585 50  0000 C CNN
 F 1 "SW_Push_LED" H 6800 4494 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 4500 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 4500 50  0001 C CNN
 F 3 "" H 6800 4500 50  0001 C CNN
 	1    6800 4200
 	1    0    0    -1  
@@ -745,8 +704,6 @@ Wire Wire Line
 	7000 4100 7100 4100
 Wire Wire Line
 	6450 4100 6450 4050
-Text GLabel 7000 4200 2    20   UnSpc ~ 0
-5V
 Text GLabel 6600 4200 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -755,7 +712,7 @@ U 1 1 5C2E04A5
 P 6800 4750
 F 0 "SW32" H 6800 5135 50  0000 C CNN
 F 1 "SW_Push_LED" H 6800 5044 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 5050 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 5050 50  0001 C CNN
 F 3 "" H 6800 5050 50  0001 C CNN
 	1    6800 4750
 	1    0    0    -1  
@@ -777,8 +734,6 @@ Wire Wire Line
 	7000 4650 7100 4650
 Wire Wire Line
 	6450 4650 6450 4600
-Text GLabel 7000 4750 2    20   UnSpc ~ 0
-5V
 Text GLabel 6600 4750 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -787,7 +742,7 @@ U 1 1 5C2E04B9
 P 6800 5300
 F 0 "SW39" H 6800 5685 50  0000 C CNN
 F 1 "SW_Push_LED" H 6800 5594 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 5600 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6800 5600 50  0001 C CNN
 F 3 "" H 6800 5600 50  0001 C CNN
 	1    6800 5300
 	1    0    0    -1  
@@ -809,8 +764,6 @@ Wire Wire Line
 	7000 5200 7100 5200
 Wire Wire Line
 	6450 5200 6450 5150
-Text GLabel 7000 5300 2    20   UnSpc ~ 0
-5V
 Text GLabel 6600 5300 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -819,7 +772,7 @@ U 1 1 5C2E23FA
 P 7850 2550
 F 0 "SW5" H 7850 2935 50  0000 C CNN
 F 1 "SW_Push_LED" H 7850 2844 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 2850 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 2850 50  0001 C CNN
 F 3 "" H 7850 2850 50  0001 C CNN
 	1    7850 2550
 	1    0    0    -1  
@@ -841,8 +794,6 @@ Wire Wire Line
 	8050 2450 8150 2450
 Wire Wire Line
 	7500 2450 7500 2400
-Text GLabel 8050 2550 2    20   UnSpc ~ 0
-5V
 Text GLabel 7650 2550 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -851,7 +802,7 @@ U 1 1 5C2E240D
 P 7850 3100
 F 0 "SW12" H 7850 3485 50  0000 C CNN
 F 1 "SW_Push_LED" H 7850 3394 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 3400 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 3400 50  0001 C CNN
 F 3 "" H 7850 3400 50  0001 C CNN
 	1    7850 3100
 	1    0    0    -1  
@@ -873,8 +824,6 @@ Wire Wire Line
 	8050 3000 8150 3000
 Wire Wire Line
 	7500 3000 7500 2950
-Text GLabel 8050 3100 2    20   UnSpc ~ 0
-5V
 Text GLabel 7650 3100 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -883,7 +832,7 @@ U 1 1 5C2E2421
 P 7850 3650
 F 0 "SW19" H 7850 4035 50  0000 C CNN
 F 1 "SW_Push_LED" H 7850 3944 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 3950 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 3950 50  0001 C CNN
 F 3 "" H 7850 3950 50  0001 C CNN
 	1    7850 3650
 	1    0    0    -1  
@@ -905,8 +854,6 @@ Wire Wire Line
 	8050 3550 8150 3550
 Wire Wire Line
 	7500 3550 7500 3500
-Text GLabel 8050 3650 2    20   UnSpc ~ 0
-5V
 Text GLabel 7650 3650 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -915,7 +862,7 @@ U 1 1 5C2E2435
 P 7850 4200
 F 0 "SW26" H 7850 4585 50  0000 C CNN
 F 1 "SW_Push_LED" H 7850 4494 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 4500 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 4500 50  0001 C CNN
 F 3 "" H 7850 4500 50  0001 C CNN
 	1    7850 4200
 	1    0    0    -1  
@@ -937,8 +884,6 @@ Wire Wire Line
 	8050 4100 8150 4100
 Wire Wire Line
 	7500 4100 7500 4050
-Text GLabel 8050 4200 2    20   UnSpc ~ 0
-5V
 Text GLabel 7650 4200 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -947,7 +892,7 @@ U 1 1 5C2E2449
 P 7850 4750
 F 0 "SW33" H 7850 5135 50  0000 C CNN
 F 1 "SW_Push_LED" H 7850 5044 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 5050 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 5050 50  0001 C CNN
 F 3 "" H 7850 5050 50  0001 C CNN
 	1    7850 4750
 	1    0    0    -1  
@@ -969,8 +914,6 @@ Wire Wire Line
 	8050 4650 8150 4650
 Wire Wire Line
 	7500 4650 7500 4600
-Text GLabel 8050 4750 2    20   UnSpc ~ 0
-5V
 Text GLabel 7650 4750 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -979,7 +922,7 @@ U 1 1 5C2E245D
 P 7850 5300
 F 0 "SW40" H 7850 5685 50  0000 C CNN
 F 1 "SW_Push_LED" H 7850 5594 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7850 5600 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_2.75u_PCB" H 7850 5600 50  0001 C CNN
 F 3 "" H 7850 5600 50  0001 C CNN
 	1    7850 5300
 	1    0    0    -1  
@@ -1001,8 +944,6 @@ Wire Wire Line
 	8050 5200 8150 5200
 Wire Wire Line
 	7500 5200 7500 5150
-Text GLabel 8050 5300 2    20   UnSpc ~ 0
-5V
 Text GLabel 7650 5300 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -1011,7 +952,7 @@ U 1 1 5C2E54CB
 P 8900 2550
 F 0 "SW6" H 8900 2935 50  0000 C CNN
 F 1 "SW_Push_LED" H 8900 2844 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 2850 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 2850 50  0001 C CNN
 F 3 "" H 8900 2850 50  0001 C CNN
 	1    8900 2550
 	1    0    0    -1  
@@ -1033,8 +974,6 @@ Wire Wire Line
 	9100 2450 9200 2450
 Wire Wire Line
 	8550 2450 8550 2400
-Text GLabel 9100 2550 2    20   UnSpc ~ 0
-5V
 Text GLabel 8700 2550 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -1043,7 +982,7 @@ U 1 1 5C2E54DE
 P 8900 3100
 F 0 "SW13" H 8900 3485 50  0000 C CNN
 F 1 "SW_Push_LED" H 8900 3394 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 3400 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 3400 50  0001 C CNN
 F 3 "" H 8900 3400 50  0001 C CNN
 	1    8900 3100
 	1    0    0    -1  
@@ -1065,8 +1004,6 @@ Wire Wire Line
 	9100 3000 9200 3000
 Wire Wire Line
 	8550 3000 8550 2950
-Text GLabel 9100 3100 2    20   UnSpc ~ 0
-5V
 Text GLabel 8700 3100 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -1075,7 +1012,7 @@ U 1 1 5C2E54F2
 P 8900 3650
 F 0 "SW20" H 8900 4035 50  0000 C CNN
 F 1 "SW_Push_LED" H 8900 3944 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 3950 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 3950 50  0001 C CNN
 F 3 "" H 8900 3950 50  0001 C CNN
 	1    8900 3650
 	1    0    0    -1  
@@ -1097,8 +1034,6 @@ Wire Wire Line
 	9100 3550 9200 3550
 Wire Wire Line
 	8550 3550 8550 3500
-Text GLabel 9100 3650 2    20   UnSpc ~ 0
-5V
 Text GLabel 8700 3650 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -1107,7 +1042,7 @@ U 1 1 5C2E5506
 P 8900 4200
 F 0 "SW27" H 8900 4585 50  0000 C CNN
 F 1 "SW_Push_LED" H 8900 4494 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 4500 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 4500 50  0001 C CNN
 F 3 "" H 8900 4500 50  0001 C CNN
 	1    8900 4200
 	1    0    0    -1  
@@ -1129,8 +1064,6 @@ Wire Wire Line
 	9100 4100 9200 4100
 Wire Wire Line
 	8550 4100 8550 4050
-Text GLabel 9100 4200 2    20   UnSpc ~ 0
-5V
 Text GLabel 8700 4200 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -1139,7 +1072,7 @@ U 1 1 5C2E551A
 P 8900 4750
 F 0 "SW34" H 8900 5135 50  0000 C CNN
 F 1 "SW_Push_LED" H 8900 5044 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 5050 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8900 5050 50  0001 C CNN
 F 3 "" H 8900 5050 50  0001 C CNN
 	1    8900 4750
 	1    0    0    -1  
@@ -1161,8 +1094,6 @@ Wire Wire Line
 	9100 4650 9200 4650
 Wire Wire Line
 	8550 4650 8550 4600
-Text GLabel 9100 4750 2    20   UnSpc ~ 0
-5V
 Text GLabel 8700 4750 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -1171,7 +1102,7 @@ U 1 1 5C2E9507
 P 9950 3100
 F 0 "SW14" H 9950 3485 50  0000 C CNN
 F 1 "SW_Push_LED" H 9950 3394 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9950 3400 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9950 3400 50  0001 C CNN
 F 3 "" H 9950 3400 50  0001 C CNN
 	1    9950 3100
 	1    0    0    -1  
@@ -1193,8 +1124,6 @@ Wire Wire Line
 	10150 3000 10250 3000
 Wire Wire Line
 	9600 3000 9600 2950
-Text GLabel 10150 3100 2    20   UnSpc ~ 0
-5V
 Text GLabel 9750 3100 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -1203,7 +1132,7 @@ U 1 1 5C2E951B
 P 9950 3650
 F 0 "SW21" H 9950 4035 50  0000 C CNN
 F 1 "SW_Push_LED" H 9950 3944 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9950 3950 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9950 3950 50  0001 C CNN
 F 3 "" H 9950 3950 50  0001 C CNN
 	1    9950 3650
 	1    0    0    -1  
@@ -1225,8 +1154,6 @@ Wire Wire Line
 	10150 3550 10250 3550
 Wire Wire Line
 	9600 3550 9600 3500
-Text GLabel 10150 3650 2    20   UnSpc ~ 0
-5V
 Text GLabel 9750 3650 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -1235,7 +1162,7 @@ U 1 1 5C2E952F
 P 9950 4200
 F 0 "SW28" H 9950 4585 50  0000 C CNN
 F 1 "SW_Push_LED" H 9950 4494 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9950 4500 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9950 4500 50  0001 C CNN
 F 3 "" H 9950 4500 50  0001 C CNN
 	1    9950 4200
 	1    0    0    -1  
@@ -1257,8 +1184,6 @@ Wire Wire Line
 	10150 4100 10250 4100
 Wire Wire Line
 	9600 4100 9600 4050
-Text GLabel 10150 4200 2    20   UnSpc ~ 0
-5V
 Text GLabel 9750 4200 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -1267,7 +1192,7 @@ U 1 1 5C2E9543
 P 9950 4750
 F 0 "SW35" H 9950 5135 50  0000 C CNN
 F 1 "SW_Push_LED" H 9950 5044 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9950 5050 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9950 5050 50  0001 C CNN
 F 3 "" H 9950 5050 50  0001 C CNN
 	1    9950 4750
 	1    0    0    -1  
@@ -1289,8 +1214,6 @@ Wire Wire Line
 	10150 4650 10250 4650
 Wire Wire Line
 	9600 4650 9600 4600
-Text GLabel 10150 4750 2    20   UnSpc ~ 0
-5V
 Text GLabel 9750 4750 0    20   UnSpc ~ 0
 GND
 $Comp
@@ -1299,7 +1222,7 @@ U 1 1 5C2E9557
 P 9950 5300
 F 0 "SW41" H 9950 5685 50  0000 C CNN
 F 1 "SW_Push_LED" H 9950 5594 50  0000 C CNN
-F 2 "split_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9950 5600 50  0001 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9950 5600 50  0001 C CNN
 F 3 "" H 9950 5600 50  0001 C CNN
 	1    9950 5300
 	1    0    0    -1  
@@ -1321,8 +1244,6 @@ Wire Wire Line
 	10150 5200 10250 5200
 Wire Wire Line
 	9600 5200 9600 5150
-Text GLabel 10150 5300 2    20   UnSpc ~ 0
-5V
 Text GLabel 9750 5300 0    20   UnSpc ~ 0
 GND
 Wire Wire Line
@@ -1581,14 +1502,581 @@ COL7
 Text GLabel 10250 1850 1    20   UnSpc ~ 0
 COL8
 $Comp
-L promicro:ProMicro U?
+L promicro:ProMicro U1
 U 1 1 5C5E6325
 P 4750 6650
-F 0 "U?" H 4750 7687 60  0000 C CNN
+F 0 "U1" H 4750 7687 60  0000 C CNN
 F 1 "ProMicro" H 4750 7581 60  0000 C CNN
-F 2 "" H 4850 5600 60  0000 C CNN
+F 2 "promicro:ProMicro" H 4850 5600 60  0001 C CNN
 F 3 "" H 4850 5600 60  0000 C CNN
 	1    4750 6650
 	1    0    0    -1  
+$EndComp
+Text GLabel 4050 6500 0    20   Input ~ 0
+ROW6
+Text GLabel 4050 6600 0    20   Input ~ 0
+ROW5
+Text GLabel 4050 6700 0    20   Input ~ 0
+ROW4
+Text GLabel 4050 6800 0    20   Input ~ 0
+ROW3
+Text GLabel 4050 6900 0    20   Input ~ 0
+ROW2
+Text GLabel 4050 7000 0    20   Input ~ 0
+ROW1
+Text GLabel 5450 7000 2    20   Input ~ 0
+COL1
+Text GLabel 5450 6900 2    20   Input ~ 0
+COL2
+Text GLabel 5450 6800 2    20   Input ~ 0
+COL3
+Text GLabel 5450 6700 2    20   Input ~ 0
+COL4
+Text GLabel 5450 6600 2    20   Input ~ 0
+COL5
+Text GLabel 5450 6500 2    20   Input ~ 0
+COL6
+Text GLabel 5450 6400 2    20   Input ~ 0
+COL7
+Text GLabel 5450 6300 2    20   Input ~ 0
+COL8
+Text GLabel 5450 5900 2    20   Input ~ 0
+5V
+Text GLabel 5450 6000 2    20   Input ~ 0
+GND
+Text GLabel 4050 6100 0    20   Input ~ 0
+GND
+Text GLabel 4050 6200 0    20   Input ~ 0
+GND
+$Comp
+L Device:R_Small_US R36
+U 1 1 5BED2859
+P 2900 5300
+F 0 "R36" V 2695 5300 50  0000 C CNN
+F 1 "R_Small_US" V 2786 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2900 5300 50  0001 C CNN
+F 3 "~" H 2900 5300 50  0001 C CNN
+	1    2900 5300
+	0    1    1    0   
+$EndComp
+Text GLabel 3000 4750 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R29
+U 1 1 5BEE9FF2
+P 2900 4750
+F 0 "R29" V 2695 4750 50  0000 C CNN
+F 1 "R_Small_US" V 2786 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2900 4750 50  0001 C CNN
+F 3 "~" H 2900 4750 50  0001 C CNN
+	1    2900 4750
+	0    1    1    0   
+$EndComp
+Text GLabel 3000 4200 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R22
+U 1 1 5BEF4B11
+P 2900 4200
+F 0 "R22" V 2695 4200 50  0000 C CNN
+F 1 "R_Small_US" V 2786 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2900 4200 50  0001 C CNN
+F 3 "~" H 2900 4200 50  0001 C CNN
+	1    2900 4200
+	0    1    1    0   
+$EndComp
+Text GLabel 3000 3650 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R15
+U 1 1 5BEFF634
+P 2900 3650
+F 0 "R15" V 2695 3650 50  0000 C CNN
+F 1 "R_Small_US" V 2786 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2900 3650 50  0001 C CNN
+F 3 "~" H 2900 3650 50  0001 C CNN
+	1    2900 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 3000 3100 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R7
+U 1 1 5BF0A310
+P 2900 3100
+F 0 "R7" V 2695 3100 50  0000 C CNN
+F 1 "R_Small_US" V 2786 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2900 3100 50  0001 C CNN
+F 3 "~" H 2900 3100 50  0001 C CNN
+	1    2900 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 3000 2550 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R1
+U 1 1 5BF14E39
+P 2900 2550
+F 0 "R1" V 2695 2550 50  0000 C CNN
+F 1 "R_Small_US" V 2786 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2900 2550 50  0001 C CNN
+F 3 "~" H 2900 2550 50  0001 C CNN
+	1    2900 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 4050 2550 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R2
+U 1 1 5BF1F974
+P 3950 2550
+F 0 "R2" V 3745 2550 50  0000 C CNN
+F 1 "R_Small_US" V 3836 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3950 2550 50  0001 C CNN
+F 3 "~" H 3950 2550 50  0001 C CNN
+	1    3950 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 4050 3100 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R8
+U 1 1 5BF2A4A5
+P 3950 3100
+F 0 "R8" V 3745 3100 50  0000 C CNN
+F 1 "R_Small_US" V 3836 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3950 3100 50  0001 C CNN
+F 3 "~" H 3950 3100 50  0001 C CNN
+	1    3950 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 4050 3650 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R16
+U 1 1 5BF34FD8
+P 3950 3650
+F 0 "R16" V 3745 3650 50  0000 C CNN
+F 1 "R_Small_US" V 3836 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3950 3650 50  0001 C CNN
+F 3 "~" H 3950 3650 50  0001 C CNN
+	1    3950 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 4050 4200 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R23
+U 1 1 5BF3FB0B
+P 3950 4200
+F 0 "R23" V 3745 4200 50  0000 C CNN
+F 1 "R_Small_US" V 3836 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3950 4200 50  0001 C CNN
+F 3 "~" H 3950 4200 50  0001 C CNN
+	1    3950 4200
+	0    1    1    0   
+$EndComp
+Text GLabel 4050 4750 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R30
+U 1 1 5BF4A7B8
+P 3950 4750
+F 0 "R30" V 3745 4750 50  0000 C CNN
+F 1 "R_Small_US" V 3836 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3950 4750 50  0001 C CNN
+F 3 "~" H 3950 4750 50  0001 C CNN
+	1    3950 4750
+	0    1    1    0   
+$EndComp
+Text GLabel 4050 5300 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R37
+U 1 1 5BF55307
+P 3950 5300
+F 0 "R37" V 3745 5300 50  0000 C CNN
+F 1 "R_Small_US" V 3836 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3950 5300 50  0001 C CNN
+F 3 "~" H 3950 5300 50  0001 C CNN
+	1    3950 5300
+	0    1    1    0   
+$EndComp
+Text GLabel 5100 5300 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R38
+U 1 1 5BF5FE5E
+P 5000 5300
+F 0 "R38" V 4795 5300 50  0000 C CNN
+F 1 "R_Small_US" V 4886 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5000 5300 50  0001 C CNN
+F 3 "~" H 5000 5300 50  0001 C CNN
+	1    5000 5300
+	0    1    1    0   
+$EndComp
+Text GLabel 5100 4750 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R31
+U 1 1 5BF6A9A5
+P 5000 4750
+F 0 "R31" V 4795 4750 50  0000 C CNN
+F 1 "R_Small_US" V 4886 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5000 4750 50  0001 C CNN
+F 3 "~" H 5000 4750 50  0001 C CNN
+	1    5000 4750
+	0    1    1    0   
+$EndComp
+Text GLabel 5100 4200 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R24
+U 1 1 5BF754EC
+P 5000 4200
+F 0 "R24" V 4795 4200 50  0000 C CNN
+F 1 "R_Small_US" V 4886 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5000 4200 50  0001 C CNN
+F 3 "~" H 5000 4200 50  0001 C CNN
+	1    5000 4200
+	0    1    1    0   
+$EndComp
+Text GLabel 5100 3650 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R17
+U 1 1 5BF80031
+P 5000 3650
+F 0 "R17" V 4795 3650 50  0000 C CNN
+F 1 "R_Small_US" V 4886 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5000 3650 50  0001 C CNN
+F 3 "~" H 5000 3650 50  0001 C CNN
+	1    5000 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 5100 3100 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R9
+U 1 1 5BF8AB6E
+P 5000 3100
+F 0 "R9" V 4795 3100 50  0000 C CNN
+F 1 "R_Small_US" V 4886 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5000 3100 50  0001 C CNN
+F 3 "~" H 5000 3100 50  0001 C CNN
+	1    5000 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 6150 2550 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R3
+U 1 1 5BF958A7
+P 6050 2550
+F 0 "R3" V 5845 2550 50  0000 C CNN
+F 1 "R_Small_US" V 5936 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6050 2550 50  0001 C CNN
+F 3 "~" H 6050 2550 50  0001 C CNN
+	1    6050 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 6150 3100 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R10
+U 1 1 5BFA03FC
+P 6050 3100
+F 0 "R10" V 5845 3100 50  0000 C CNN
+F 1 "R_Small_US" V 5936 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6050 3100 50  0001 C CNN
+F 3 "~" H 6050 3100 50  0001 C CNN
+	1    6050 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 7200 2550 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R4
+U 1 1 5BFAB1AF
+P 7100 2550
+F 0 "R4" V 6895 2550 50  0000 C CNN
+F 1 "R_Small_US" V 6986 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7100 2550 50  0001 C CNN
+F 3 "~" H 7100 2550 50  0001 C CNN
+	1    7100 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 7200 3100 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R11
+U 1 1 5BFB5D02
+P 7100 3100
+F 0 "R11" V 6895 3100 50  0000 C CNN
+F 1 "R_Small_US" V 6986 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7100 3100 50  0001 C CNN
+F 3 "~" H 7100 3100 50  0001 C CNN
+	1    7100 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 7200 3650 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R18
+U 1 1 5BFC0AC5
+P 7100 3650
+F 0 "R18" V 6895 3650 50  0000 C CNN
+F 1 "R_Small_US" V 6986 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7100 3650 50  0001 C CNN
+F 3 "~" H 7100 3650 50  0001 C CNN
+	1    7100 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 7200 4200 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R25
+U 1 1 5BFCB61A
+P 7100 4200
+F 0 "R25" V 6895 4200 50  0000 C CNN
+F 1 "R_Small_US" V 6986 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7100 4200 50  0001 C CNN
+F 3 "~" H 7100 4200 50  0001 C CNN
+	1    7100 4200
+	0    1    1    0   
+$EndComp
+Text GLabel 7200 4750 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R32
+U 1 1 5BFD6171
+P 7100 4750
+F 0 "R32" V 6895 4750 50  0000 C CNN
+F 1 "R_Small_US" V 6986 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7100 4750 50  0001 C CNN
+F 3 "~" H 7100 4750 50  0001 C CNN
+	1    7100 4750
+	0    1    1    0   
+$EndComp
+Text GLabel 7200 5300 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R39
+U 1 1 5BFE0CC6
+P 7100 5300
+F 0 "R39" V 6895 5300 50  0000 C CNN
+F 1 "R_Small_US" V 6986 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7100 5300 50  0001 C CNN
+F 3 "~" H 7100 5300 50  0001 C CNN
+	1    7100 5300
+	0    1    1    0   
+$EndComp
+Text GLabel 8250 5300 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R40
+U 1 1 5BFEBA33
+P 8150 5300
+F 0 "R40" V 7945 5300 50  0000 C CNN
+F 1 "R_Small_US" V 8036 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8150 5300 50  0001 C CNN
+F 3 "~" H 8150 5300 50  0001 C CNN
+	1    8150 5300
+	0    1    1    0   
+$EndComp
+Text GLabel 8250 4750 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R33
+U 1 1 5BFF6582
+P 8150 4750
+F 0 "R33" V 7945 4750 50  0000 C CNN
+F 1 "R_Small_US" V 8036 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8150 4750 50  0001 C CNN
+F 3 "~" H 8150 4750 50  0001 C CNN
+	1    8150 4750
+	0    1    1    0   
+$EndComp
+Text GLabel 8250 4200 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R26
+U 1 1 5C0010D7
+P 8150 4200
+F 0 "R26" V 7945 4200 50  0000 C CNN
+F 1 "R_Small_US" V 8036 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8150 4200 50  0001 C CNN
+F 3 "~" H 8150 4200 50  0001 C CNN
+	1    8150 4200
+	0    1    1    0   
+$EndComp
+Text GLabel 8250 3650 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R19
+U 1 1 5C00BC30
+P 8150 3650
+F 0 "R19" V 7945 3650 50  0000 C CNN
+F 1 "R_Small_US" V 8036 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8150 3650 50  0001 C CNN
+F 3 "~" H 8150 3650 50  0001 C CNN
+	1    8150 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 8250 3100 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R12
+U 1 1 5C016789
+P 8150 3100
+F 0 "R12" V 7945 3100 50  0000 C CNN
+F 1 "R_Small_US" V 8036 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8150 3100 50  0001 C CNN
+F 3 "~" H 8150 3100 50  0001 C CNN
+	1    8150 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 8250 2550 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R5
+U 1 1 5C0212E2
+P 8150 2550
+F 0 "R5" V 7945 2550 50  0000 C CNN
+F 1 "R_Small_US" V 8036 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8150 2550 50  0001 C CNN
+F 3 "~" H 8150 2550 50  0001 C CNN
+	1    8150 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 9300 2550 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R6
+U 1 1 5C02C165
+P 9200 2550
+F 0 "R6" V 8995 2550 50  0000 C CNN
+F 1 "R_Small_US" V 9086 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9200 2550 50  0001 C CNN
+F 3 "~" H 9200 2550 50  0001 C CNN
+	1    9200 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 9300 3100 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R13
+U 1 1 5C036CD2
+P 9200 3100
+F 0 "R13" V 8995 3100 50  0000 C CNN
+F 1 "R_Small_US" V 9086 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9200 3100 50  0001 C CNN
+F 3 "~" H 9200 3100 50  0001 C CNN
+	1    9200 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 9300 3650 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R20
+U 1 1 5C04183D
+P 9200 3650
+F 0 "R20" V 8995 3650 50  0000 C CNN
+F 1 "R_Small_US" V 9086 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9200 3650 50  0001 C CNN
+F 3 "~" H 9200 3650 50  0001 C CNN
+	1    9200 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 9300 4200 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R27
+U 1 1 5C04C39E
+P 9200 4200
+F 0 "R27" V 8995 4200 50  0000 C CNN
+F 1 "R_Small_US" V 9086 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9200 4200 50  0001 C CNN
+F 3 "~" H 9200 4200 50  0001 C CNN
+	1    9200 4200
+	0    1    1    0   
+$EndComp
+Text GLabel 9300 4750 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R34
+U 1 1 5C056F0F
+P 9200 4750
+F 0 "R34" V 8995 4750 50  0000 C CNN
+F 1 "R_Small_US" V 9086 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9200 4750 50  0001 C CNN
+F 3 "~" H 9200 4750 50  0001 C CNN
+	1    9200 4750
+	0    1    1    0   
+$EndComp
+Text GLabel 10350 5300 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R41
+U 1 1 5C061A7C
+P 10250 5300
+F 0 "R41" V 10045 5300 50  0000 C CNN
+F 1 "R_Small_US" V 10136 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10250 5300 50  0001 C CNN
+F 3 "~" H 10250 5300 50  0001 C CNN
+	1    10250 5300
+	0    1    1    0   
+$EndComp
+Text GLabel 10350 4750 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R35
+U 1 1 5C06C5E9
+P 10250 4750
+F 0 "R35" V 10045 4750 50  0000 C CNN
+F 1 "R_Small_US" V 10136 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10250 4750 50  0001 C CNN
+F 3 "~" H 10250 4750 50  0001 C CNN
+	1    10250 4750
+	0    1    1    0   
+$EndComp
+Text GLabel 10350 4200 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R28
+U 1 1 5C07714C
+P 10250 4200
+F 0 "R28" V 10045 4200 50  0000 C CNN
+F 1 "R_Small_US" V 10136 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10250 4200 50  0001 C CNN
+F 3 "~" H 10250 4200 50  0001 C CNN
+	1    10250 4200
+	0    1    1    0   
+$EndComp
+Text GLabel 10350 3650 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R21
+U 1 1 5C081CB3
+P 10250 3650
+F 0 "R21" V 10045 3650 50  0000 C CNN
+F 1 "R_Small_US" V 10136 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10250 3650 50  0001 C CNN
+F 3 "~" H 10250 3650 50  0001 C CNN
+	1    10250 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 10350 3100 2    20   UnSpc ~ 0
+5V
+$Comp
+L Device:R_Small_US R14
+U 1 1 5C08C81E
+P 10250 3100
+F 0 "R14" V 10045 3100 50  0000 C CNN
+F 1 "R_Small_US" V 10136 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10250 3100 50  0001 C CNN
+F 3 "~" H 10250 3100 50  0001 C CNN
+	1    10250 3100
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

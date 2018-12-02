@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name breach_keyboard)(type KiCad)(uri ${KIPRJMOD}/breach_keyboard.pretty)(options "")(descr ""))
-  (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
-)

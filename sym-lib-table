@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name breach_keyboard)(type Legacy)(uri ${KIPRJMOD}/breach_keyboard.lib)(options "")(descr ""))
-  (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
-)

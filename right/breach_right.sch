@@ -1,0 +1,2168 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push_LED SW1
+U 1 1 5C8AC6BF
+P 2550 1500
+F 0 "SW1" H 2550 1885 50  0000 C CNN
+F 1 "SW_Push_LED" H 2550 1794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2550 1800 50  0001 C CNN
+F 3 "" H 2550 1800 50  0001 C CNN
+	1    2550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 5C8AC6C6
+P 2200 1200
+F 0 "D1" V 2150 1050 50  0000 L CNN
+F 1 "1N4148" H 2200 1100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2200 1025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2200 1200 50  0001 C CNN
+	1    2200 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5C8AC6CD
+P 3100 1500
+F 0 "R1" V 2895 1500 50  0000 C CNN
+F 1 "R_Small_US" V 2986 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3100 1500 50  0001 C CNN
+F 3 "~" H 3100 1500 50  0001 C CNN
+	1    3100 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 1400 2750 1400
+Wire Wire Line
+	2750 1500 3000 1500
+Wire Wire Line
+	2200 1350 2200 1400
+Wire Wire Line
+	2200 1400 2350 1400
+Text GLabel 2350 1500 0    39   UnSpc ~ 0
+GND
+Text GLabel 3200 1500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW7
+U 1 1 5C8AC7CA
+P 1250 2100
+F 0 "SW7" H 1250 2485 50  0000 C CNN
+F 1 "SW_Push_LED" H 1250 2394 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1250 2400 50  0001 C CNN
+F 3 "" H 1250 2400 50  0001 C CNN
+	1    1250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 5C8AC7D1
+P 900 1800
+F 0 "D7" V 850 1650 50  0000 L CNN
+F 1 "1N4148" H 900 1700 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 900 1625 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 900 1800 50  0001 C CNN
+	1    900  1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R7
+U 1 1 5C8AC7D8
+P 1800 2100
+F 0 "R7" V 1595 2100 50  0000 C CNN
+F 1 "R_Small_US" V 1686 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1800 2100 50  0001 C CNN
+F 3 "~" H 1800 2100 50  0001 C CNN
+	1    1800 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 2000 1450 2000
+Wire Wire Line
+	1450 2100 1700 2100
+Wire Wire Line
+	900  1950 900  2000
+Wire Wire Line
+	900  2000 1050 2000
+Text GLabel 1050 2100 0    39   UnSpc ~ 0
+GND
+Text GLabel 1900 2100 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW14
+U 1 1 5C8AC9C9
+P 1250 2700
+F 0 "SW14" H 1250 3085 50  0000 C CNN
+F 1 "SW_Push_LED" H 1250 2994 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1250 3000 50  0001 C CNN
+F 3 "" H 1250 3000 50  0001 C CNN
+	1    1250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 5C8AC9D0
+P 900 2400
+F 0 "D14" V 850 2250 50  0000 L CNN
+F 1 "1N4148" H 900 2300 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 900 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 900 2400 50  0001 C CNN
+	1    900  2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R14
+U 1 1 5C8AC9D7
+P 1800 2700
+F 0 "R14" V 1595 2700 50  0000 C CNN
+F 1 "R_Small_US" V 1686 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1800 2700 50  0001 C CNN
+F 3 "~" H 1800 2700 50  0001 C CNN
+	1    1800 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 2600 1450 2600
+Wire Wire Line
+	1450 2700 1700 2700
+Wire Wire Line
+	900  2550 900  2600
+Wire Wire Line
+	900  2600 1050 2600
+Text GLabel 1050 2700 0    39   UnSpc ~ 0
+GND
+Text GLabel 1900 2700 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW22
+U 1 1 5C8ACB65
+P 1250 3300
+F 0 "SW22" H 1250 3685 50  0000 C CNN
+F 1 "SW_Push_LED" H 1250 3594 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1250 3600 50  0001 C CNN
+F 3 "" H 1250 3600 50  0001 C CNN
+	1    1250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D22
+U 1 1 5C8ACB6C
+P 900 3000
+F 0 "D22" V 850 2850 50  0000 L CNN
+F 1 "1N4148" H 900 2900 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 900 2825 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 900 3000 50  0001 C CNN
+	1    900  3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R22
+U 1 1 5C8ACB73
+P 1800 3300
+F 0 "R22" V 1595 3300 50  0000 C CNN
+F 1 "R_Small_US" V 1686 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1800 3300 50  0001 C CNN
+F 3 "~" H 1800 3300 50  0001 C CNN
+	1    1800 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 3200 1450 3200
+Wire Wire Line
+	1450 3300 1700 3300
+Wire Wire Line
+	900  3150 900  3200
+Wire Wire Line
+	900  3200 1050 3200
+Text GLabel 1050 3300 0    39   UnSpc ~ 0
+GND
+Text GLabel 1900 3300 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW8
+U 1 1 5C8ACD93
+P 2550 2100
+F 0 "SW8" H 2550 2485 50  0000 C CNN
+F 1 "SW_Push_LED" H 2550 2394 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2550 2400 50  0001 C CNN
+F 3 "" H 2550 2400 50  0001 C CNN
+	1    2550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 5C8ACD9A
+P 2200 1800
+F 0 "D8" V 2150 1650 50  0000 L CNN
+F 1 "1N4148" H 2200 1700 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2200 1625 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2200 1800 50  0001 C CNN
+	1    2200 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 5C8ACDA1
+P 3100 2100
+F 0 "R8" V 2895 2100 50  0000 C CNN
+F 1 "R_Small_US" V 2986 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3100 2100 50  0001 C CNN
+F 3 "~" H 3100 2100 50  0001 C CNN
+	1    3100 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 2000 2750 2000
+Wire Wire Line
+	2750 2100 3000 2100
+Wire Wire Line
+	2200 1950 2200 2000
+Wire Wire Line
+	2200 2000 2350 2000
+Text GLabel 2350 2100 0    39   UnSpc ~ 0
+GND
+Text GLabel 3200 2100 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW15
+U 1 1 5C8AD03D
+P 2550 2700
+F 0 "SW15" H 2550 3085 50  0000 C CNN
+F 1 "SW_Push_LED" H 2550 2994 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2550 3000 50  0001 C CNN
+F 3 "" H 2550 3000 50  0001 C CNN
+	1    2550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 5C8AD044
+P 2200 2400
+F 0 "D15" V 2150 2250 50  0000 L CNN
+F 1 "1N4148" H 2200 2300 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2200 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2200 2400 50  0001 C CNN
+	1    2200 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R15
+U 1 1 5C8AD04B
+P 3100 2700
+F 0 "R15" V 2895 2700 50  0000 C CNN
+F 1 "R_Small_US" V 2986 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3100 2700 50  0001 C CNN
+F 3 "~" H 3100 2700 50  0001 C CNN
+	1    3100 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 2600 2750 2600
+Wire Wire Line
+	2750 2700 3000 2700
+Wire Wire Line
+	2200 2550 2200 2600
+Wire Wire Line
+	2200 2600 2350 2600
+Text GLabel 2350 2700 0    39   UnSpc ~ 0
+GND
+Text GLabel 3200 2700 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW23
+U 1 1 5C8AD376
+P 2550 3300
+F 0 "SW23" H 2550 3685 50  0000 C CNN
+F 1 "SW_Push_LED" H 2550 3594 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2550 3600 50  0001 C CNN
+F 3 "" H 2550 3600 50  0001 C CNN
+	1    2550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D23
+U 1 1 5C8AD37D
+P 2200 3000
+F 0 "D23" V 2150 2850 50  0000 L CNN
+F 1 "1N4148" H 2200 2900 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2200 2825 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2200 3000 50  0001 C CNN
+	1    2200 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R23
+U 1 1 5C8AD384
+P 3100 3300
+F 0 "R23" V 2895 3300 50  0000 C CNN
+F 1 "R_Small_US" V 2986 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3100 3300 50  0001 C CNN
+F 3 "~" H 3100 3300 50  0001 C CNN
+	1    3100 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 3200 2750 3200
+Wire Wire Line
+	2750 3300 3000 3300
+Wire Wire Line
+	2200 3150 2200 3200
+Wire Wire Line
+	2200 3200 2350 3200
+Text GLabel 2350 3300 0    39   UnSpc ~ 0
+GND
+Text GLabel 3200 3300 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW29
+U 1 1 5C8AD7B7
+P 2550 3900
+F 0 "SW29" H 2550 4285 50  0000 C CNN
+F 1 "SW_Push_LED" H 2550 4194 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2550 4200 50  0001 C CNN
+F 3 "" H 2550 4200 50  0001 C CNN
+	1    2550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D29
+U 1 1 5C8AD7BE
+P 2200 3600
+F 0 "D29" V 2150 3450 50  0000 L CNN
+F 1 "1N4148" H 2200 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2200 3425 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2200 3600 50  0001 C CNN
+	1    2200 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R29
+U 1 1 5C8AD7C5
+P 3100 3900
+F 0 "R29" V 2895 3900 50  0000 C CNN
+F 1 "R_Small_US" V 2986 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3100 3900 50  0001 C CNN
+F 3 "~" H 3100 3900 50  0001 C CNN
+	1    3100 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 3800 2750 3800
+Wire Wire Line
+	2750 3900 3000 3900
+Wire Wire Line
+	2200 3750 2200 3800
+Wire Wire Line
+	2200 3800 2350 3800
+Text GLabel 2350 3900 0    39   UnSpc ~ 0
+GND
+Text GLabel 3200 3900 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW35
+U 1 1 5C8ADD67
+P 1250 4500
+F 0 "SW35" H 1250 4885 50  0000 C CNN
+F 1 "SW_Push_LED" H 1250 4794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1250 4800 50  0001 C CNN
+F 3 "" H 1250 4800 50  0001 C CNN
+	1    1250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D35
+U 1 1 5C8ADD6E
+P 900 4200
+F 0 "D35" V 850 4050 50  0000 L CNN
+F 1 "1N4148" H 900 4100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 900 4025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 900 4200 50  0001 C CNN
+	1    900  4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R35
+U 1 1 5C8ADD75
+P 1800 4500
+F 0 "R35" V 1595 4500 50  0000 C CNN
+F 1 "R_Small_US" V 1686 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1800 4500 50  0001 C CNN
+F 3 "~" H 1800 4500 50  0001 C CNN
+	1    1800 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 4400 1450 4400
+Wire Wire Line
+	1450 4500 1700 4500
+Wire Wire Line
+	900  4350 900  4400
+Wire Wire Line
+	900  4400 1050 4400
+Text GLabel 1050 4500 0    39   UnSpc ~ 0
+GND
+Text GLabel 1900 4500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW30
+U 1 1 5C8AE992
+P 3850 3900
+F 0 "SW30" H 3850 4285 50  0000 C CNN
+F 1 "SW_Push_LED" H 3850 4194 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3850 4200 50  0001 C CNN
+F 3 "" H 3850 4200 50  0001 C CNN
+	1    3850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D30
+U 1 1 5C8AE999
+P 3500 3600
+F 0 "D30" V 3450 3450 50  0000 L CNN
+F 1 "1N4148" H 3500 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3500 3425 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 3600 50  0001 C CNN
+	1    3500 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R30
+U 1 1 5C8AE9A0
+P 4400 3900
+F 0 "R30" V 4195 3900 50  0000 C CNN
+F 1 "R_Small_US" V 4286 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 3900 50  0001 C CNN
+F 3 "~" H 4400 3900 50  0001 C CNN
+	1    4400 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 3800 4050 3800
+Wire Wire Line
+	4050 3900 4300 3900
+Wire Wire Line
+	3500 3750 3500 3800
+Wire Wire Line
+	3500 3800 3650 3800
+Text GLabel 3650 3900 0    39   UnSpc ~ 0
+GND
+Text GLabel 4500 3900 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW24
+U 1 1 5C8AF1CD
+P 3850 3300
+F 0 "SW24" H 3850 3685 50  0000 C CNN
+F 1 "SW_Push_LED" H 3850 3594 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3850 3600 50  0001 C CNN
+F 3 "" H 3850 3600 50  0001 C CNN
+	1    3850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D24
+U 1 1 5C8AF1D4
+P 3500 3000
+F 0 "D24" V 3450 2850 50  0000 L CNN
+F 1 "1N4148" H 3500 2900 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3500 2825 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 3000 50  0001 C CNN
+	1    3500 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R24
+U 1 1 5C8AF1DB
+P 4400 3300
+F 0 "R24" V 4195 3300 50  0000 C CNN
+F 1 "R_Small_US" V 4286 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 3300 50  0001 C CNN
+F 3 "~" H 4400 3300 50  0001 C CNN
+	1    4400 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 3200 4050 3200
+Wire Wire Line
+	4050 3300 4300 3300
+Wire Wire Line
+	3500 3150 3500 3200
+Wire Wire Line
+	3500 3200 3650 3200
+Text GLabel 3650 3300 0    39   UnSpc ~ 0
+GND
+Text GLabel 4500 3300 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW16
+U 1 1 5C8AFB02
+P 3850 2700
+F 0 "SW16" H 3850 3085 50  0000 C CNN
+F 1 "SW_Push_LED" H 3850 2994 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3850 3000 50  0001 C CNN
+F 3 "" H 3850 3000 50  0001 C CNN
+	1    3850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D16
+U 1 1 5C8AFB09
+P 3500 2400
+F 0 "D16" V 3450 2250 50  0000 L CNN
+F 1 "1N4148" H 3500 2300 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3500 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 2400 50  0001 C CNN
+	1    3500 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R16
+U 1 1 5C8AFB10
+P 4400 2700
+F 0 "R16" V 4195 2700 50  0000 C CNN
+F 1 "R_Small_US" V 4286 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 2700 50  0001 C CNN
+F 3 "~" H 4400 2700 50  0001 C CNN
+	1    4400 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 2600 4050 2600
+Wire Wire Line
+	4050 2700 4300 2700
+Wire Wire Line
+	3500 2550 3500 2600
+Wire Wire Line
+	3500 2600 3650 2600
+Text GLabel 3650 2700 0    39   UnSpc ~ 0
+GND
+Text GLabel 4500 2700 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW9
+U 1 1 5C8B05CE
+P 3850 2100
+F 0 "SW9" H 3850 2485 50  0000 C CNN
+F 1 "SW_Push_LED" H 3850 2394 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3850 2400 50  0001 C CNN
+F 3 "" H 3850 2400 50  0001 C CNN
+	1    3850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 5C8B05D5
+P 3500 1800
+F 0 "D9" V 3450 1650 50  0000 L CNN
+F 1 "1N4148" H 3500 1700 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3500 1625 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 1800 50  0001 C CNN
+	1    3500 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R9
+U 1 1 5C8B05DC
+P 4400 2100
+F 0 "R9" V 4195 2100 50  0000 C CNN
+F 1 "R_Small_US" V 4286 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 2100 50  0001 C CNN
+F 3 "~" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 2000 4050 2000
+Wire Wire Line
+	4050 2100 4300 2100
+Wire Wire Line
+	3500 1950 3500 2000
+Wire Wire Line
+	3500 2000 3650 2000
+Text GLabel 3650 2100 0    39   UnSpc ~ 0
+GND
+Text GLabel 4500 2100 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW2
+U 1 1 5C8B1268
+P 3850 1500
+F 0 "SW2" H 3850 1885 50  0000 C CNN
+F 1 "SW_Push_LED" H 3850 1794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3850 1800 50  0001 C CNN
+F 3 "" H 3850 1800 50  0001 C CNN
+	1    3850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 5C8B126F
+P 3500 1200
+F 0 "D2" V 3450 1050 50  0000 L CNN
+F 1 "1N4148" H 3500 1100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3500 1025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 1200 50  0001 C CNN
+	1    3500 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 5C8B1276
+P 4400 1500
+F 0 "R2" V 4195 1500 50  0000 C CNN
+F 1 "R_Small_US" V 4286 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 1500 50  0001 C CNN
+F 3 "~" H 4400 1500 50  0001 C CNN
+	1    4400 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 1400 4050 1400
+Wire Wire Line
+	4050 1500 4300 1500
+Wire Wire Line
+	3500 1350 3500 1400
+Wire Wire Line
+	3500 1400 3650 1400
+Text GLabel 3650 1500 0    39   UnSpc ~ 0
+GND
+Text GLabel 4500 1500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW36
+U 1 1 5C8B2155
+P 3850 4500
+F 0 "SW36" H 3850 4885 50  0000 C CNN
+F 1 "SW_Push_LED" H 3850 4794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_2.00u_PCB" H 3850 4800 50  0001 C CNN
+F 3 "" H 3850 4800 50  0001 C CNN
+	1    3850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D36
+U 1 1 5C8B215C
+P 3500 4200
+F 0 "D36" V 3450 4050 50  0000 L CNN
+F 1 "1N4148" H 3500 4100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3500 4025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3500 4200 50  0001 C CNN
+	1    3500 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R36
+U 1 1 5C8B2163
+P 4400 4500
+F 0 "R36" V 4195 4500 50  0000 C CNN
+F 1 "R_Small_US" V 4286 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 4500 50  0001 C CNN
+F 3 "~" H 4400 4500 50  0001 C CNN
+	1    4400 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 4400 4050 4400
+Wire Wire Line
+	4050 4500 4300 4500
+Wire Wire Line
+	3500 4350 3500 4400
+Wire Wire Line
+	3500 4400 3650 4400
+Text GLabel 3650 4500 0    39   UnSpc ~ 0
+GND
+Text GLabel 4500 4500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW31
+U 1 1 5C8B3461
+P 5150 3900
+F 0 "SW31" H 5150 4285 50  0000 C CNN
+F 1 "SW_Push_LED" H 5150 4194 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5150 4200 50  0001 C CNN
+F 3 "" H 5150 4200 50  0001 C CNN
+	1    5150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D31
+U 1 1 5C8B3468
+P 4800 3600
+F 0 "D31" V 4750 3450 50  0000 L CNN
+F 1 "1N4148" H 4800 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4800 3425 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 3600 50  0001 C CNN
+	1    4800 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R31
+U 1 1 5C8B346F
+P 5700 3900
+F 0 "R31" V 5495 3900 50  0000 C CNN
+F 1 "R_Small_US" V 5586 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 3900 50  0001 C CNN
+F 3 "~" H 5700 3900 50  0001 C CNN
+	1    5700 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3800 5350 3800
+Wire Wire Line
+	5350 3900 5600 3900
+Wire Wire Line
+	4800 3750 4800 3800
+Wire Wire Line
+	4800 3800 4950 3800
+Text GLabel 4950 3900 0    39   UnSpc ~ 0
+GND
+Text GLabel 5800 3900 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW25
+U 1 1 5C8B347C
+P 5150 3300
+F 0 "SW25" H 5150 3685 50  0000 C CNN
+F 1 "SW_Push_LED" H 5150 3594 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5150 3600 50  0001 C CNN
+F 3 "" H 5150 3600 50  0001 C CNN
+	1    5150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D25
+U 1 1 5C8B3483
+P 4800 3000
+F 0 "D25" V 4750 2850 50  0000 L CNN
+F 1 "1N4148" H 4800 2900 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4800 2825 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 3000 50  0001 C CNN
+	1    4800 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R25
+U 1 1 5C8B348A
+P 5700 3300
+F 0 "R25" V 5495 3300 50  0000 C CNN
+F 1 "R_Small_US" V 5586 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 3300 50  0001 C CNN
+F 3 "~" H 5700 3300 50  0001 C CNN
+	1    5700 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3200 5350 3200
+Wire Wire Line
+	5350 3300 5600 3300
+Wire Wire Line
+	4800 3150 4800 3200
+Wire Wire Line
+	4800 3200 4950 3200
+Text GLabel 4950 3300 0    39   UnSpc ~ 0
+GND
+Text GLabel 5800 3300 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW17
+U 1 1 5C8B3497
+P 5150 2700
+F 0 "SW17" H 5150 3085 50  0000 C CNN
+F 1 "SW_Push_LED" H 5150 2994 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5150 3000 50  0001 C CNN
+F 3 "" H 5150 3000 50  0001 C CNN
+	1    5150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 5C8B349E
+P 4800 2400
+F 0 "D17" V 4750 2250 50  0000 L CNN
+F 1 "1N4148" H 4800 2300 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4800 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R17
+U 1 1 5C8B34A5
+P 5700 2700
+F 0 "R17" V 5495 2700 50  0000 C CNN
+F 1 "R_Small_US" V 5586 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 2700 50  0001 C CNN
+F 3 "~" H 5700 2700 50  0001 C CNN
+	1    5700 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 2600 5350 2600
+Wire Wire Line
+	5350 2700 5600 2700
+Wire Wire Line
+	4800 2550 4800 2600
+Wire Wire Line
+	4800 2600 4950 2600
+Text GLabel 4950 2700 0    39   UnSpc ~ 0
+GND
+Text GLabel 5800 2700 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW10
+U 1 1 5C8B34B2
+P 5150 2100
+F 0 "SW10" H 5150 2485 50  0000 C CNN
+F 1 "SW_Push_LED" H 5150 2394 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5150 2400 50  0001 C CNN
+F 3 "" H 5150 2400 50  0001 C CNN
+	1    5150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 5C8B34B9
+P 4800 1800
+F 0 "D10" V 4750 1650 50  0000 L CNN
+F 1 "1N4148" H 4800 1700 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4800 1625 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 1800 50  0001 C CNN
+	1    4800 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R10
+U 1 1 5C8B34C0
+P 5700 2100
+F 0 "R10" V 5495 2100 50  0000 C CNN
+F 1 "R_Small_US" V 5586 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 2100 50  0001 C CNN
+F 3 "~" H 5700 2100 50  0001 C CNN
+	1    5700 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 2000 5350 2000
+Wire Wire Line
+	5350 2100 5600 2100
+Wire Wire Line
+	4800 1950 4800 2000
+Wire Wire Line
+	4800 2000 4950 2000
+Text GLabel 4950 2100 0    39   UnSpc ~ 0
+GND
+Text GLabel 5800 2100 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW3
+U 1 1 5C8B34CD
+P 5150 1500
+F 0 "SW3" H 5150 1885 50  0000 C CNN
+F 1 "SW_Push_LED" H 5150 1794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5150 1800 50  0001 C CNN
+F 3 "" H 5150 1800 50  0001 C CNN
+	1    5150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 5C8B34D4
+P 4800 1200
+F 0 "D3" V 4750 1050 50  0000 L CNN
+F 1 "1N4148" H 4800 1100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4800 1025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 1200 50  0001 C CNN
+	1    4800 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 5C8B34DB
+P 5700 1500
+F 0 "R3" V 5495 1500 50  0000 C CNN
+F 1 "R_Small_US" V 5586 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 1500 50  0001 C CNN
+F 3 "~" H 5700 1500 50  0001 C CNN
+	1    5700 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 1400 5350 1400
+Wire Wire Line
+	5350 1500 5600 1500
+Wire Wire Line
+	4800 1350 4800 1400
+Wire Wire Line
+	4800 1400 4950 1400
+Text GLabel 4950 1500 0    39   UnSpc ~ 0
+GND
+Text GLabel 5800 1500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW38
+U 1 1 5C8B715A
+P 6450 4500
+F 0 "SW38" H 6450 4885 50  0000 C CNN
+F 1 "SW_Push_LED" H 6450 4794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6450 4800 50  0001 C CNN
+F 3 "" H 6450 4800 50  0001 C CNN
+	1    6450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D38
+U 1 1 5C8B7161
+P 6100 4200
+F 0 "D38" V 6050 4050 50  0000 L CNN
+F 1 "1N4148" H 6100 4100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6100 4025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6100 4200 50  0001 C CNN
+	1    6100 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R38
+U 1 1 5C8B7168
+P 7000 4500
+F 0 "R38" V 6795 4500 50  0000 C CNN
+F 1 "R_Small_US" V 6886 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7000 4500 50  0001 C CNN
+F 3 "~" H 7000 4500 50  0001 C CNN
+	1    7000 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 4400 6650 4400
+Wire Wire Line
+	6650 4500 6900 4500
+Wire Wire Line
+	6100 4350 6100 4400
+Wire Wire Line
+	6100 4400 6250 4400
+Text GLabel 6250 4500 0    39   UnSpc ~ 0
+GND
+Text GLabel 7100 4500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW32
+U 1 1 5C8B7175
+P 6450 3900
+F 0 "SW32" H 6450 4285 50  0000 C CNN
+F 1 "SW_Push_LED" H 6450 4194 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6450 4200 50  0001 C CNN
+F 3 "" H 6450 4200 50  0001 C CNN
+	1    6450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D32
+U 1 1 5C8B717C
+P 6100 3600
+F 0 "D32" V 6050 3450 50  0000 L CNN
+F 1 "1N4148" H 6100 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6100 3425 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6100 3600 50  0001 C CNN
+	1    6100 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R32
+U 1 1 5C8B7183
+P 7000 3900
+F 0 "R32" V 6795 3900 50  0000 C CNN
+F 1 "R_Small_US" V 6886 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7000 3900 50  0001 C CNN
+F 3 "~" H 7000 3900 50  0001 C CNN
+	1    7000 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 3800 6650 3800
+Wire Wire Line
+	6650 3900 6900 3900
+Wire Wire Line
+	6100 3750 6100 3800
+Wire Wire Line
+	6100 3800 6250 3800
+Text GLabel 6250 3900 0    39   UnSpc ~ 0
+GND
+Text GLabel 7100 3900 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW26
+U 1 1 5C8B7190
+P 6450 3300
+F 0 "SW26" H 6450 3685 50  0000 C CNN
+F 1 "SW_Push_LED" H 6450 3594 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6450 3600 50  0001 C CNN
+F 3 "" H 6450 3600 50  0001 C CNN
+	1    6450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D26
+U 1 1 5C8B7197
+P 6100 3000
+F 0 "D26" V 6050 2850 50  0000 L CNN
+F 1 "1N4148" H 6100 2900 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6100 2825 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6100 3000 50  0001 C CNN
+	1    6100 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R26
+U 1 1 5C8B719E
+P 7000 3300
+F 0 "R26" V 6795 3300 50  0000 C CNN
+F 1 "R_Small_US" V 6886 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7000 3300 50  0001 C CNN
+F 3 "~" H 7000 3300 50  0001 C CNN
+	1    7000 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 3200 6650 3200
+Wire Wire Line
+	6650 3300 6900 3300
+Wire Wire Line
+	6100 3150 6100 3200
+Wire Wire Line
+	6100 3200 6250 3200
+Text GLabel 6250 3300 0    39   UnSpc ~ 0
+GND
+Text GLabel 7100 3300 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW18
+U 1 1 5C8B71AB
+P 6450 2700
+F 0 "SW18" H 6450 3085 50  0000 C CNN
+F 1 "SW_Push_LED" H 6450 2994 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6450 3000 50  0001 C CNN
+F 3 "" H 6450 3000 50  0001 C CNN
+	1    6450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D18
+U 1 1 5C8B71B2
+P 6100 2400
+F 0 "D18" V 6050 2250 50  0000 L CNN
+F 1 "1N4148" H 6100 2300 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6100 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6100 2400 50  0001 C CNN
+	1    6100 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R18
+U 1 1 5C8B71B9
+P 7000 2700
+F 0 "R18" V 6795 2700 50  0000 C CNN
+F 1 "R_Small_US" V 6886 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7000 2700 50  0001 C CNN
+F 3 "~" H 7000 2700 50  0001 C CNN
+	1    7000 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 2600 6650 2600
+Wire Wire Line
+	6650 2700 6900 2700
+Wire Wire Line
+	6100 2550 6100 2600
+Wire Wire Line
+	6100 2600 6250 2600
+Text GLabel 6250 2700 0    39   UnSpc ~ 0
+GND
+Text GLabel 7100 2700 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW11
+U 1 1 5C8B71C6
+P 6450 2100
+F 0 "SW11" H 6450 2485 50  0000 C CNN
+F 1 "SW_Push_LED" H 6450 2394 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6450 2400 50  0001 C CNN
+F 3 "" H 6450 2400 50  0001 C CNN
+	1    6450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D11
+U 1 1 5C8B71CD
+P 6100 1800
+F 0 "D11" V 6050 1650 50  0000 L CNN
+F 1 "1N4148" H 6100 1700 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6100 1625 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6100 1800 50  0001 C CNN
+	1    6100 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 5C8B71D4
+P 7000 2100
+F 0 "R11" V 6795 2100 50  0000 C CNN
+F 1 "R_Small_US" V 6886 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7000 2100 50  0001 C CNN
+F 3 "~" H 7000 2100 50  0001 C CNN
+	1    7000 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 2000 6650 2000
+Wire Wire Line
+	6650 2100 6900 2100
+Wire Wire Line
+	6100 1950 6100 2000
+Wire Wire Line
+	6100 2000 6250 2000
+Text GLabel 6250 2100 0    39   UnSpc ~ 0
+GND
+Text GLabel 7100 2100 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW33
+U 1 1 5C8BB57F
+P 7750 3900
+F 0 "SW33" H 7750 4285 50  0000 C CNN
+F 1 "SW_Push_LED" H 7750 4194 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7750 4200 50  0001 C CNN
+F 3 "" H 7750 4200 50  0001 C CNN
+	1    7750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D33
+U 1 1 5C8BB586
+P 7400 3600
+F 0 "D33" V 7350 3450 50  0000 L CNN
+F 1 "1N4148" H 7400 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7400 3425 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7400 3600 50  0001 C CNN
+	1    7400 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R33
+U 1 1 5C8BB58D
+P 8300 3900
+F 0 "R33" V 8095 3900 50  0000 C CNN
+F 1 "R_Small_US" V 8186 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8300 3900 50  0001 C CNN
+F 3 "~" H 8300 3900 50  0001 C CNN
+	1    8300 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 3800 7950 3800
+Wire Wire Line
+	7950 3900 8200 3900
+Wire Wire Line
+	7400 3750 7400 3800
+Wire Wire Line
+	7400 3800 7550 3800
+Text GLabel 7550 3900 0    39   UnSpc ~ 0
+GND
+Text GLabel 8400 3900 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW27
+U 1 1 5C8BB59A
+P 7750 3300
+F 0 "SW27" H 7750 3685 50  0000 C CNN
+F 1 "SW_Push_LED" H 7750 3594 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7750 3600 50  0001 C CNN
+F 3 "" H 7750 3600 50  0001 C CNN
+	1    7750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D27
+U 1 1 5C8BB5A1
+P 7400 3000
+F 0 "D27" V 7350 2850 50  0000 L CNN
+F 1 "1N4148" H 7400 2900 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7400 2825 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7400 3000 50  0001 C CNN
+	1    7400 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R27
+U 1 1 5C8BB5A8
+P 8300 3300
+F 0 "R27" V 8095 3300 50  0000 C CNN
+F 1 "R_Small_US" V 8186 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8300 3300 50  0001 C CNN
+F 3 "~" H 8300 3300 50  0001 C CNN
+	1    8300 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 3200 7950 3200
+Wire Wire Line
+	7950 3300 8200 3300
+Wire Wire Line
+	7400 3150 7400 3200
+Wire Wire Line
+	7400 3200 7550 3200
+Text GLabel 7550 3300 0    39   UnSpc ~ 0
+GND
+Text GLabel 8400 3300 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW19
+U 1 1 5C8BB5B5
+P 7750 2700
+F 0 "SW19" H 7750 3085 50  0000 C CNN
+F 1 "SW_Push_LED" H 7750 2994 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7750 3000 50  0001 C CNN
+F 3 "" H 7750 3000 50  0001 C CNN
+	1    7750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D19
+U 1 1 5C8BB5BC
+P 7400 2400
+F 0 "D19" V 7350 2250 50  0000 L CNN
+F 1 "1N4148" H 7400 2300 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7400 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7400 2400 50  0001 C CNN
+	1    7400 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R19
+U 1 1 5C8BB5C3
+P 8300 2700
+F 0 "R19" V 8095 2700 50  0000 C CNN
+F 1 "R_Small_US" V 8186 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8300 2700 50  0001 C CNN
+F 3 "~" H 8300 2700 50  0001 C CNN
+	1    8300 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 2600 7950 2600
+Wire Wire Line
+	7950 2700 8200 2700
+Wire Wire Line
+	7400 2550 7400 2600
+Wire Wire Line
+	7400 2600 7550 2600
+Text GLabel 7550 2700 0    39   UnSpc ~ 0
+GND
+Text GLabel 8400 2700 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW12
+U 1 1 5C8BB5D0
+P 7750 2100
+F 0 "SW12" H 7750 2485 50  0000 C CNN
+F 1 "SW_Push_LED" H 7750 2394 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7750 2400 50  0001 C CNN
+F 3 "" H 7750 2400 50  0001 C CNN
+	1    7750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 5C8BB5D7
+P 7400 1800
+F 0 "D12" V 7350 1650 50  0000 L CNN
+F 1 "1N4148" H 7400 1700 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7400 1625 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7400 1800 50  0001 C CNN
+	1    7400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R12
+U 1 1 5C8BB5DE
+P 8300 2100
+F 0 "R12" V 8095 2100 50  0000 C CNN
+F 1 "R_Small_US" V 8186 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8300 2100 50  0001 C CNN
+F 3 "~" H 8300 2100 50  0001 C CNN
+	1    8300 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 2000 7950 2000
+Wire Wire Line
+	7950 2100 8200 2100
+Wire Wire Line
+	7400 1950 7400 2000
+Wire Wire Line
+	7400 2000 7550 2000
+Text GLabel 7550 2100 0    39   UnSpc ~ 0
+GND
+Text GLabel 8400 2100 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW4
+U 1 1 5C8BB5EB
+P 7750 1500
+F 0 "SW4" H 7750 1885 50  0000 C CNN
+F 1 "SW_Push_LED" H 7750 1794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7750 1800 50  0001 C CNN
+F 3 "" H 7750 1800 50  0001 C CNN
+	1    7750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 5C8BB5F2
+P 7400 1200
+F 0 "D4" V 7350 1050 50  0000 L CNN
+F 1 "1N4148" H 7400 1100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7400 1025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7400 1200 50  0001 C CNN
+	1    7400 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R4
+U 1 1 5C8BB5F9
+P 8300 1500
+F 0 "R4" V 8095 1500 50  0000 C CNN
+F 1 "R_Small_US" V 8186 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8300 1500 50  0001 C CNN
+F 3 "~" H 8300 1500 50  0001 C CNN
+	1    8300 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 1400 7950 1400
+Wire Wire Line
+	7950 1500 8200 1500
+Wire Wire Line
+	7400 1350 7400 1400
+Wire Wire Line
+	7400 1400 7550 1400
+Text GLabel 7550 1500 0    39   UnSpc ~ 0
+GND
+Text GLabel 8400 1500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW39
+U 1 1 5C8BB606
+P 7750 4500
+F 0 "SW39" H 7750 4885 50  0000 C CNN
+F 1 "SW_Push_LED" H 7750 4794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7750 4800 50  0001 C CNN
+F 3 "" H 7750 4800 50  0001 C CNN
+	1    7750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D39
+U 1 1 5C8BB60D
+P 7400 4200
+F 0 "D39" V 7350 4050 50  0000 L CNN
+F 1 "1N4148" H 7400 4100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 7400 4025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7400 4200 50  0001 C CNN
+	1    7400 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R39
+U 1 1 5C8BB614
+P 8300 4500
+F 0 "R39" V 8095 4500 50  0000 C CNN
+F 1 "R_Small_US" V 8186 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8300 4500 50  0001 C CNN
+F 3 "~" H 8300 4500 50  0001 C CNN
+	1    8300 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 4400 7950 4400
+Wire Wire Line
+	7950 4500 8200 4500
+Wire Wire Line
+	7400 4350 7400 4400
+Wire Wire Line
+	7400 4400 7550 4400
+Text GLabel 7550 4500 0    39   UnSpc ~ 0
+GND
+Text GLabel 8400 4500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW20
+U 1 1 5C8C04D2
+P 9050 2700
+F 0 "SW20" H 9050 3085 50  0000 C CNN
+F 1 "SW_Push_LED" H 9050 2994 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9050 3000 50  0001 C CNN
+F 3 "" H 9050 3000 50  0001 C CNN
+	1    9050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D20
+U 1 1 5C8C04D9
+P 8700 2400
+F 0 "D20" V 8650 2250 50  0000 L CNN
+F 1 "1N4148" H 8700 2300 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 8700 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8700 2400 50  0001 C CNN
+	1    8700 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R20
+U 1 1 5C8C04E0
+P 9600 2700
+F 0 "R20" V 9395 2700 50  0000 C CNN
+F 1 "R_Small_US" V 9486 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9600 2700 50  0001 C CNN
+F 3 "~" H 9600 2700 50  0001 C CNN
+	1    9600 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 2600 9250 2600
+Wire Wire Line
+	9250 2700 9500 2700
+Wire Wire Line
+	8700 2550 8700 2600
+Wire Wire Line
+	8700 2600 8850 2600
+Text GLabel 8850 2700 0    39   UnSpc ~ 0
+GND
+Text GLabel 9700 2700 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW5
+U 1 1 5C8C0508
+P 9050 1500
+F 0 "SW5" H 9050 1885 50  0000 C CNN
+F 1 "SW_Push_LED" H 9050 1794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9050 1800 50  0001 C CNN
+F 3 "" H 9050 1800 50  0001 C CNN
+	1    9050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 5C8C050F
+P 8700 1200
+F 0 "D5" V 8650 1050 50  0000 L CNN
+F 1 "1N4148" H 8700 1100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 8700 1025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8700 1200 50  0001 C CNN
+	1    8700 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R5
+U 1 1 5C8C0516
+P 9600 1500
+F 0 "R5" V 9395 1500 50  0000 C CNN
+F 1 "R_Small_US" V 9486 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9600 1500 50  0001 C CNN
+F 3 "~" H 9600 1500 50  0001 C CNN
+	1    9600 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 1400 9250 1400
+Wire Wire Line
+	9250 1500 9500 1500
+Wire Wire Line
+	8700 1350 8700 1400
+Wire Wire Line
+	8700 1400 8850 1400
+Text GLabel 8850 1500 0    39   UnSpc ~ 0
+GND
+Text GLabel 9700 1500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW40
+U 1 1 5C8C0523
+P 9050 4500
+F 0 "SW40" H 9050 4885 50  0000 C CNN
+F 1 "SW_Push_LED" H 9050 4794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9050 4800 50  0001 C CNN
+F 3 "" H 9050 4800 50  0001 C CNN
+	1    9050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D40
+U 1 1 5C8C052A
+P 8700 4200
+F 0 "D40" V 8650 4050 50  0000 L CNN
+F 1 "1N4148" H 8700 4100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 8700 4025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8700 4200 50  0001 C CNN
+	1    8700 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R40
+U 1 1 5C8C0531
+P 9600 4500
+F 0 "R40" V 9395 4500 50  0000 C CNN
+F 1 "R_Small_US" V 9486 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9600 4500 50  0001 C CNN
+F 3 "~" H 9600 4500 50  0001 C CNN
+	1    9600 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 4400 9250 4400
+Wire Wire Line
+	9250 4500 9500 4500
+Wire Wire Line
+	8700 4350 8700 4400
+Wire Wire Line
+	8700 4400 8850 4400
+Text GLabel 8850 4500 0    39   UnSpc ~ 0
+GND
+Text GLabel 9700 4500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW34
+U 1 1 5C8CFCEF
+P 9050 3900
+F 0 "SW34" H 9050 4285 50  0000 C CNN
+F 1 "SW_Push_LED" H 9050 4194 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9050 4200 50  0001 C CNN
+F 3 "" H 9050 4200 50  0001 C CNN
+	1    9050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D34
+U 1 1 5C8CFCF6
+P 8700 3600
+F 0 "D34" V 8650 3450 50  0000 L CNN
+F 1 "1N4148" H 8700 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 8700 3425 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8700 3600 50  0001 C CNN
+	1    8700 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R34
+U 1 1 5C8CFCFD
+P 9600 3900
+F 0 "R34" V 9395 3900 50  0000 C CNN
+F 1 "R_Small_US" V 9486 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9600 3900 50  0001 C CNN
+F 3 "~" H 9600 3900 50  0001 C CNN
+	1    9600 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 3800 9250 3800
+Wire Wire Line
+	9250 3900 9500 3900
+Wire Wire Line
+	8700 3750 8700 3800
+Wire Wire Line
+	8700 3800 8850 3800
+Text GLabel 8850 3900 0    39   UnSpc ~ 0
+GND
+Text GLabel 9700 3900 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW28
+U 1 1 5C8CFD0A
+P 10350 3300
+F 0 "SW28" H 10350 3685 50  0000 C CNN
+F 1 "SW_Push_LED" H 10350 3594 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_2.25u_PCB" H 10350 3600 50  0001 C CNN
+F 3 "" H 10350 3600 50  0001 C CNN
+	1    10350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D28
+U 1 1 5C8CFD11
+P 10000 3000
+F 0 "D28" V 9950 2850 50  0000 L CNN
+F 1 "1N4148" H 10000 2900 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 10000 2825 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10000 3000 50  0001 C CNN
+	1    10000 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R28
+U 1 1 5C8CFD18
+P 10900 3300
+F 0 "R28" V 10695 3300 50  0000 C CNN
+F 1 "R_Small_US" V 10786 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10900 3300 50  0001 C CNN
+F 3 "~" H 10900 3300 50  0001 C CNN
+	1    10900 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 3200 10550 3200
+Wire Wire Line
+	10550 3300 10800 3300
+Wire Wire Line
+	10000 3150 10000 3200
+Wire Wire Line
+	10000 3200 10150 3200
+Text GLabel 10150 3300 0    39   UnSpc ~ 0
+GND
+Text GLabel 11000 3300 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW21
+U 1 1 5C8CFD25
+P 10350 2700
+F 0 "SW21" H 10350 3085 50  0000 C CNN
+F 1 "SW_Push_LED" H 10350 2994 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 10350 3000 50  0001 C CNN
+F 3 "" H 10350 3000 50  0001 C CNN
+	1    10350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D21
+U 1 1 5C8CFD2C
+P 10000 2400
+F 0 "D21" V 9950 2250 50  0000 L CNN
+F 1 "1N4148" H 10000 2300 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 10000 2225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10000 2400 50  0001 C CNN
+	1    10000 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R21
+U 1 1 5C8CFD33
+P 10900 2700
+F 0 "R21" V 10695 2700 50  0000 C CNN
+F 1 "R_Small_US" V 10786 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10900 2700 50  0001 C CNN
+F 3 "~" H 10900 2700 50  0001 C CNN
+	1    10900 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 2600 10550 2600
+Wire Wire Line
+	10550 2700 10800 2700
+Wire Wire Line
+	10000 2550 10000 2600
+Wire Wire Line
+	10000 2600 10150 2600
+Text GLabel 10150 2700 0    39   UnSpc ~ 0
+GND
+Text GLabel 11000 2700 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW13
+U 1 1 5C8CFD40
+P 10350 2100
+F 0 "SW13" H 10350 2485 50  0000 C CNN
+F 1 "SW_Push_LED" H 10350 2394 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_2.25u_PCB" H 10350 2400 50  0001 C CNN
+F 3 "" H 10350 2400 50  0001 C CNN
+	1    10350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D13
+U 1 1 5C8CFD47
+P 10000 1800
+F 0 "D13" V 9950 1650 50  0000 L CNN
+F 1 "1N4148" H 10000 1700 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 10000 1625 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10000 1800 50  0001 C CNN
+	1    10000 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R13
+U 1 1 5C8CFD4E
+P 10900 2100
+F 0 "R13" V 10695 2100 50  0000 C CNN
+F 1 "R_Small_US" V 10786 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10900 2100 50  0001 C CNN
+F 3 "~" H 10900 2100 50  0001 C CNN
+	1    10900 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 2000 10550 2000
+Wire Wire Line
+	10550 2100 10800 2100
+Wire Wire Line
+	10000 1950 10000 2000
+Wire Wire Line
+	10000 2000 10150 2000
+Text GLabel 10150 2100 0    39   UnSpc ~ 0
+GND
+Text GLabel 11000 2100 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW6
+U 1 1 5C8CFD5B
+P 10350 1500
+F 0 "SW6" H 10350 1885 50  0000 C CNN
+F 1 "SW_Push_LED" H 10350 1794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 10350 1800 50  0001 C CNN
+F 3 "" H 10350 1800 50  0001 C CNN
+	1    10350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 5C8CFD62
+P 10000 1200
+F 0 "D6" V 9950 1050 50  0000 L CNN
+F 1 "1N4148" H 10000 1100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 10000 1025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10000 1200 50  0001 C CNN
+	1    10000 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R6
+U 1 1 5C8CFD69
+P 10900 1500
+F 0 "R6" V 10695 1500 50  0000 C CNN
+F 1 "R_Small_US" V 10786 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10900 1500 50  0001 C CNN
+F 3 "~" H 10900 1500 50  0001 C CNN
+	1    10900 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 1400 10550 1400
+Wire Wire Line
+	10550 1500 10800 1500
+Wire Wire Line
+	10000 1350 10000 1400
+Wire Wire Line
+	10000 1400 10150 1400
+Text GLabel 10150 1500 0    39   UnSpc ~ 0
+GND
+Text GLabel 11000 1500 2    39   UnSpc ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW41
+U 1 1 5C8CFD76
+P 10350 4500
+F 0 "SW41" H 10350 4885 50  0000 C CNN
+F 1 "SW_Push_LED" H 10350 4794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 10350 4800 50  0001 C CNN
+F 3 "" H 10350 4800 50  0001 C CNN
+	1    10350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D41
+U 1 1 5C8CFD7D
+P 10000 4200
+F 0 "D41" V 9950 4050 50  0000 L CNN
+F 1 "1N4148" H 10000 4100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 10000 4025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10000 4200 50  0001 C CNN
+	1    10000 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R41
+U 1 1 5C8CFD84
+P 10900 4500
+F 0 "R41" V 10695 4500 50  0000 C CNN
+F 1 "R_Small_US" V 10786 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10900 4500 50  0001 C CNN
+F 3 "~" H 10900 4500 50  0001 C CNN
+	1    10900 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 4400 10550 4400
+Wire Wire Line
+	10550 4500 10800 4500
+Wire Wire Line
+	10000 4350 10000 4400
+Wire Wire Line
+	10000 4400 10150 4400
+Text GLabel 10150 4500 0    39   UnSpc ~ 0
+GND
+Text GLabel 11000 4500 2    39   UnSpc ~ 0
+5V
+Wire Wire Line
+	900  1650 2200 1650
+Wire Wire Line
+	2200 1650 3500 1650
+Connection ~ 2200 1650
+Wire Wire Line
+	3500 1650 4800 1650
+Connection ~ 3500 1650
+Wire Wire Line
+	900  2250 2200 2250
+Wire Wire Line
+	2200 2250 3500 2250
+Connection ~ 2200 2250
+Connection ~ 3500 2250
+Wire Wire Line
+	3500 2850 2200 2850
+Connection ~ 3500 2850
+Wire Wire Line
+	2200 2850 900  2850
+Connection ~ 2200 2850
+Wire Wire Line
+	900  2850 750  2850
+Connection ~ 900  2850
+Wire Wire Line
+	900  2250 750  2250
+Connection ~ 900  2250
+Wire Wire Line
+	900  1650 750  1650
+Connection ~ 900  1650
+Wire Wire Line
+	2200 1050 750  1050
+Wire Wire Line
+	750  4050 900  4050
+Connection ~ 900  4050
+Wire Wire Line
+	3500 3450 2200 3450
+Connection ~ 3500 3450
+Wire Wire Line
+	2200 3450 750  3450
+Connection ~ 2200 3450
+Wire Wire Line
+	7400 1650 10000 1650
+Wire Wire Line
+	10000 2250 8700 2250
+Wire Wire Line
+	8700 2250 7400 2250
+Connection ~ 8700 2250
+Wire Wire Line
+	7400 2850 10000 2850
+Wire Wire Line
+	7400 4050 8700 4050
+Wire Wire Line
+	8700 4050 10000 4050
+Connection ~ 8700 4050
+Wire Wire Line
+	1550 4400 1550 3200
+Wire Wire Line
+	1550 3200 1550 2600
+Connection ~ 1550 3200
+Wire Wire Line
+	1550 2600 1550 2000
+Connection ~ 1550 2600
+Wire Wire Line
+	1550 2000 1550 900 
+Connection ~ 1550 2000
+Wire Wire Line
+	2850 900  2850 1400
+Wire Wire Line
+	2850 1400 2850 2000
+Connection ~ 2850 1400
+Wire Wire Line
+	2850 2000 2850 2600
+Connection ~ 2850 2000
+Wire Wire Line
+	2850 2600 2850 3200
+Connection ~ 2850 2600
+Wire Wire Line
+	2850 3200 2850 3800
+Connection ~ 2850 3200
+Wire Wire Line
+	2200 1050 3500 1050
+Connection ~ 2200 1050
+Wire Wire Line
+	4150 900  4150 1400
+Wire Wire Line
+	4150 1400 4150 2000
+Connection ~ 4150 1400
+Wire Wire Line
+	4150 2000 4150 2600
+Connection ~ 4150 2000
+Wire Wire Line
+	4150 2600 4150 3200
+Connection ~ 4150 2600
+Wire Wire Line
+	4150 3200 4150 3800
+Connection ~ 4150 3200
+Wire Wire Line
+	4150 3800 4150 4400
+Connection ~ 4150 3800
+Wire Wire Line
+	3500 1050 4800 1050
+Connection ~ 3500 1050
+Wire Wire Line
+	4800 1050 7400 1050
+Connection ~ 4800 1050
+Wire Wire Line
+	5450 900  5450 1400
+Wire Wire Line
+	5450 1400 5450 2000
+Connection ~ 5450 1400
+Wire Wire Line
+	5450 2000 5450 2600
+Connection ~ 5450 2000
+Wire Wire Line
+	5450 2600 5450 3200
+Connection ~ 5450 2600
+Wire Wire Line
+	5450 3200 5450 3800
+Connection ~ 5450 3200
+Wire Wire Line
+	4800 3450 3500 3450
+Wire Wire Line
+	900  4050 3500 4050
+Wire Wire Line
+	3500 2850 4800 2850
+Wire Wire Line
+	3500 2250 4800 2250
+Wire Wire Line
+	3500 4050 4800 4050
+Connection ~ 3500 4050
+Connection ~ 6100 4050
+Wire Wire Line
+	6100 4050 7400 4050
+Connection ~ 7400 4050
+Wire Wire Line
+	7400 3450 6100 3450
+Wire Wire Line
+	6100 3450 4800 3450
+Connection ~ 6100 3450
+Connection ~ 4800 3450
+Wire Wire Line
+	4800 2850 6100 2850
+Connection ~ 4800 2850
+Wire Wire Line
+	6100 2850 7400 2850
+Connection ~ 6100 2850
+Connection ~ 7400 2850
+Wire Wire Line
+	7400 2250 6100 2250
+Connection ~ 7400 2250
+Wire Wire Line
+	6100 2250 4800 2250
+Connection ~ 6100 2250
+Connection ~ 4800 2250
+Wire Wire Line
+	4800 1650 6100 1650
+Connection ~ 4800 1650
+Wire Wire Line
+	6100 1650 7400 1650
+Connection ~ 6100 1650
+Connection ~ 7400 1650
+Wire Wire Line
+	6750 900  6750 2000
+Wire Wire Line
+	6750 2000 6750 2600
+Connection ~ 6750 2000
+Wire Wire Line
+	6750 2600 6750 3200
+Connection ~ 6750 2600
+Wire Wire Line
+	6750 3200 6750 3800
+Connection ~ 6750 3200
+Wire Wire Line
+	6750 3800 6750 4400
+Connection ~ 6750 3800
+Wire Wire Line
+	8050 900  8050 1400
+Wire Wire Line
+	8050 1400 8050 2000
+Connection ~ 8050 1400
+Wire Wire Line
+	8050 2000 8050 2600
+Connection ~ 8050 2000
+Wire Wire Line
+	8050 2600 8050 3200
+Connection ~ 8050 2600
+Wire Wire Line
+	8050 3200 8050 3800
+Connection ~ 8050 3200
+Wire Wire Line
+	8050 3800 8050 4400
+Connection ~ 8050 3800
+Wire Wire Line
+	7400 1050 8700 1050
+Connection ~ 7400 1050
+Wire Wire Line
+	8700 1050 10000 1050
+Connection ~ 8700 1050
+Wire Wire Line
+	9350 900  9350 1400
+Wire Wire Line
+	9350 1400 9350 2600
+Connection ~ 9350 1400
+Wire Wire Line
+	10650 900  10650 1400
+Connection ~ 10650 1400
+Wire Wire Line
+	10650 1400 10650 2000
+Connection ~ 10650 2000
+Wire Wire Line
+	10650 2000 10650 2600
+Connection ~ 10650 2600
+Wire Wire Line
+	10650 2600 10650 3200
+Text GLabel 750  1050 0    39   Output ~ 0
+ROW1
+Text GLabel 750  1650 0    39   Output ~ 0
+ROW2
+Text GLabel 750  2250 0    39   Output ~ 0
+ROW3
+Text GLabel 750  2850 0    39   Output ~ 0
+ROW4
+Text GLabel 750  3450 0    39   Output ~ 0
+ROW5
+Text GLabel 750  4050 0    39   Output ~ 0
+ROW6
+Text GLabel 1550 900  1    39   Output ~ 0
+COL1
+Text GLabel 2850 900  1    39   Output ~ 0
+COL2
+Text GLabel 4150 900  1    39   Output ~ 0
+COL3
+Text GLabel 5450 900  1    39   Output ~ 0
+COL4
+Text GLabel 6750 900  1    39   Output ~ 0
+COL5
+Text GLabel 8050 900  1    39   Output ~ 0
+COL6
+Text GLabel 9350 900  1    39   Output ~ 0
+COL7
+Text GLabel 10650 900  1    39   Output ~ 0
+COL8
+$Comp
+L promicro:ProMicro U1
+U 1 1 5CE9BB98
+P 3950 6250
+F 0 "U1" H 3950 7287 60  0000 C CNN
+F 1 "ProMicro" H 3950 7181 60  0000 C CNN
+F 2 "promicro:ProMicro" H 4050 5200 60  0001 C CNN
+F 3 "" H 4050 5200 60  0000 C CNN
+	1    3950 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3250 5700 0    39   UnSpc ~ 0
+GND
+Text GLabel 3250 5800 0    39   UnSpc ~ 0
+GND
+Text GLabel 3250 6100 0    39   Input ~ 0
+ROW6
+Text GLabel 3250 6200 0    39   Input ~ 0
+ROW5
+Text GLabel 3250 6300 0    39   Input ~ 0
+ROW4
+Text GLabel 3250 6400 0    39   Input ~ 0
+ROW3
+Text GLabel 3250 6500 0    39   Input ~ 0
+ROW2
+Text GLabel 3250 6600 0    39   Input ~ 0
+ROW1
+Text GLabel 4650 6600 2    39   Input ~ 0
+COL8
+Text GLabel 4650 6500 2    39   Input ~ 0
+COL7
+Text GLabel 4650 6400 2    39   Input ~ 0
+COL6
+Text GLabel 4650 6300 2    39   Input ~ 0
+COL5
+Text GLabel 4650 6200 2    39   Input ~ 0
+COL4
+Text GLabel 4650 6100 2    39   Input ~ 0
+COL3
+Text GLabel 4650 6000 2    39   Input ~ 0
+COL2
+Text GLabel 4650 5900 2    39   Input ~ 0
+COL1
+Text GLabel 4650 5600 2    39   UnSpc ~ 0
+GND
+Text GLabel 4650 5500 2    39   Input ~ 0
+5V
+$Comp
+L Switch:SW_Push_LED SW37
+U 1 1 5CEA06B1
+P 5150 4500
+F 0 "SW37" H 5150 4885 50  0000 C CNN
+F 1 "SW_Push_LED" H 5150 4794 50  0000 C CNN
+F 2 "breach_keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5150 4800 50  0001 C CNN
+F 3 "" H 5150 4800 50  0001 C CNN
+	1    5150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D37
+U 1 1 5CEA06B8
+P 4800 4200
+F 0 "D37" V 4750 4050 50  0000 L CNN
+F 1 "1N4148" H 4800 4100 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4800 4025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 4200 50  0001 C CNN
+	1    4800 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R37
+U 1 1 5CEA06BF
+P 5700 4500
+F 0 "R37" V 5495 4500 50  0000 C CNN
+F 1 "R_Small_US" V 5586 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 4500 50  0001 C CNN
+F 3 "~" H 5700 4500 50  0001 C CNN
+	1    5700 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 4400 5350 4400
+Wire Wire Line
+	5350 4500 5600 4500
+Wire Wire Line
+	4800 4350 4800 4400
+Wire Wire Line
+	4800 4400 4950 4400
+Text GLabel 4950 4500 0    39   UnSpc ~ 0
+GND
+Text GLabel 5800 4500 2    39   UnSpc ~ 0
+5V
+Connection ~ 4800 4050
+Wire Wire Line
+	4800 4050 6100 4050
+Wire Wire Line
+	5450 4400 5450 3800
+Connection ~ 5450 3800
+Wire Wire Line
+	7400 3450 8700 3450
+Connection ~ 7400 3450
+Wire Wire Line
+	9350 3800 9350 2600
+Connection ~ 9350 2600
+Wire Wire Line
+	9350 3800 9350 4400
+Connection ~ 9350 3800
+Wire Wire Line
+	10650 4400 10650 3200
+Connection ~ 10650 3200
+$EndSCHEMATC

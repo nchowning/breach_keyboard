@@ -1,92 +1,97 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import argparse
-
-rows = {
-    'left': [
-        # Row 1  Prev                     Esc
-        [1, [[1, True], [0.5, False], [1, True]]],
-        # Row 2    Play
-        [0.5, [[1, True]]],  #   `          1          2          3          4          5          6
-        [0.5, [[1.5, False], [1, True], [1, True], [1, True], [1, True], [1, True], [1, True], [1, True]]],
-        # Row 3    Next
-        [0.5, [[1, True]]],  #   Tab        Q          W          E          R          T
-        [1, [[1.5, False], [1.5, True], [1, True], [1, True], [1, True], [1, True], [1, True]]],
-        # Row 4  VolUp                       Ctrl       A          S          D          F          G
-        [1, [[1, True], [0.5, False], [1.75, True], [1, True], [1, True], [1, True], [1, True], [1, True]]],
-        # Row 5  Mute                        Shift      Z          X          C          V          B
-        [1, [[1, True], [0.5, False], [2.25, True], [1, True], [1, True], [1, True], [1, True], [1, True]]],
-        # Row 6  VolDn                       Ctrl          Super         Alt           Space      Fn
-        [1, [[1, True], [0.5, False], [1.25, True], [1.25, True], [1.25, True], [2.75, True], [1, True]]],
-    ],
-
-    'right': [
-        # Row 1 - Function Row
-        [1, [[1.75, False], [1, True], [1, True], [1, True], [1, False], [1, True], [1, True], [1, True]]],
-        # Gap
-        [0.5, []],
-        # Row 2                 7          8          9          0          -          =          <-
-        [1, [[0.75, False], [1, True], [1, True], [1, True], [1, True], [1, True], [1, True], [2, True]]],
-        # Row 3                 Y          U          I          O          P          [          ]            \
-        [1, [[0.25, False], [1, True], [1, True], [1, True], [1, True], [1, True], [1, True], [1, True], [1.5, True]]],
-        # Row 4                H          J          K          L          ;          '             Enter
-        [1, [[0.5, False], [1, True], [1, True], [1, True], [1, True], [1, True], [1, True], [2.25, True]]],
-        # Row 5              N          M          ,          .          /                         Up
-        [1, [[1, False], [1, True], [1, True], [1, True], [1, True], [1, True], [0.75, False], [1, True]]],
-        # Row 6  Fn         Space         Super         Ctrl                      Left       Down       Right
-        [1, [[1, True], [2, True], [1.25, True], [1.25, True], [0.25, False], [1, True], [1, True], [1, True]]],
-    ]
-}
+import json
 
 
 def main():
-
-    # Switch spacing from middle to middle
-    mtm = 19.05
+    text_template = """  (gr_text "%s" (at %.3f %.3f) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )"""
 
     args = parse_arguments()
 
-    side_rows = rows[args.side.lower()]
+    DEFAULT_WIDTH = 1
+    DEFAULT_HEIGHT = 1
+    
+    with open(args.file) as f:
+        data = json.load(f)
+    
+    spacing = 19.05
     
     v_position = 0
     
-    for row in side_rows:
-        v_position += mtm / 2
+    if args.diode:
+        offset = [-8.15, -3]
+    elif args.resistor:
+        offset = [-6, -5]
+    elif args.text:
+        offset = [0, 8]
+    else:
+        offset = [0, 0]
+
+    if args.offset:
+        offset[0] += float(args.offset[0])
+        offset[1] += float(args.offset[1])
+
+    for row in data:
+        # Ignore the keyboard properties values
+        if isinstance(row, dict):
+            continue
+    
+        width = DEFAULT_WIDTH
+        height = DEFAULT_HEIGHT
     
         h_position = 0
-        for i, key in enumerate(row[1]):
-            h_spacing = key[0]
     
-            h_position += (h_spacing * mtm) / 2
+        v_position += (spacing * height) / 2
     
-            if key[1]:
-                if args.diode:
-                    # Doide placement
-                    print("(%.5f, %.5f)" % (h_position - 8.15, v_position - 3))
-                elif args.resistor:
-                    # LED resistor placement
-                    print("(%.5f, %.5f)" % (h_position - 6, v_position - 5))
-                elif args.text:
-                    # Silkscreen text placement
-                    print("(%.5f, %.5f)" % (h_position, v_position + 8.475))
+        for key in row:
+            if isinstance(key, dict):
+                # Adjust position for gaps
+                # I think y will only show up as the first key in a row since a
+                # change in the y value would just start a new row
+                if 'x' in key.keys():
+                    h_position += (key['x'] * spacing)
+                if 'y' in key.keys():
+                    v_position += (key['y'] * spacing)
+    
+                # Change the size of the next key
+                if 'w' in key.keys():
+                    width = key['w']
+                if 'h' in key.keys():
+                    height = key['h']
+            else:
+                # We only care about the main (lowest) legend
+                legend = key.split('\n')[-1]
+    
+                h_position += (spacing * width) / 2
+    
+                extra_height = 0
+                if height != DEFAULT_HEIGHT:
+                    extra_height = (spacing * (height - 1)) / 2
+    
+                if args.text:
+                    print(text_template % (legend, round(h_position + offset[0], 3), round(v_position + extra_height + offset[1], 3)))
                 else:
-                    # Switch placement
-                    print("(%.5f, %.5f)" % (h_position, v_position))
+                    print("(%.5f, %.5f)" % (h_position + offset[0], v_position + extra_height + offset[1]))
     
-            h_position += (h_spacing * mtm) / 2
+                h_position += (spacing * width) / 2
     
-        v_spacing = row[0]
-        if v_spacing >= 1:
-            v_position += (v_spacing * mtm) / 2
-        print()
+                width = DEFAULT_WIDTH
+                height = DEFAULT_HEIGHT
+    
+        v_position += (spacing * height) / 2
 
 
 def parse_arguments():
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('side',
-                        help='Keyboard side (left or right)')
+    parser.add_argument('file',
+                        help='JSON keyboard data file')
+    parser.add_argument('-o', dest='offset',
+                        help='Global offset for all coordinates. Example: \'10,10\'')
 
     coordinate_group = parser.add_mutually_exclusive_group()
     coordinate_group.add_argument('-s', dest='switch', action='store_true',
@@ -96,9 +101,14 @@ def parse_arguments():
     coordinate_group.add_argument('-r', dest='resistor', action='store_true',
                                   help='Print LED resistor coordinates')
     coordinate_group.add_argument('-t', dest='text', action='store_true',
-                                  help='Print silkscreen text coordinates')
+                                  help='Print silkscreen text')
 
-    return parser.parse_args()
+    args = parser.parse_args()
+
+    if args.offset:
+        args.offset = args.offset.split(',')
+
+    return args
 
 
 if __name__ == '__main__':
